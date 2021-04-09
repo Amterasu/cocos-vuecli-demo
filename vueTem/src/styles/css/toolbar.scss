@@ -1,0 +1,4817 @@
+fieldset {
+  margin: 0;
+  min-width: 0
+}
+
+fieldset,
+legend {
+  padding: 0;
+  border: 0
+}
+
+legend {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: inherit;
+  color: #999;
+  border-bottom: 1px solid #d9d9d9
+}
+
+label {
+  font-size: 12px
+}
+
+input[type=search] {
+  box-sizing: border-box
+}
+
+input[type=checkbox],
+input[type=radio] {
+  line-height: normal
+}
+
+
+input[type=range] {
+  display: block;
+  width: 100%
+}
+
+select[multiple],
+select[size] {
+  height: auto
+}
+
+input[type=checkbox]:focus,
+input[type=file]:focus,
+input[type=radio]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px
+}
+
+output {
+  display: block;
+  padding-top: 15px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666
+}
+
+label {
+  position: relative
+}
+
+label>.anticon {
+  vertical-align: top;
+  font-size: 12px
+}
+
+.ant-form-item-required:before {
+  display: inline-block;
+  margin-right: 4px;
+  content: "*";
+  font-family: SimSun;
+  font-size: 12px;
+  color: #f50
+}
+
+.ant-checkbox-inline.disabled,
+.ant-checkbox-vertical.disabled,
+.ant-checkbox.disabled label,
+.ant-radio-inline.disabled,
+.ant-radio-vertical.disabled,
+.ant-radio.disabled label,
+fieldset[disabled] .ant-checkbox-inline,
+fieldset[disabled] .ant-checkbox-vertical,
+fieldset[disabled] .ant-checkbox label,
+fieldset[disabled] .ant-radio-inline,
+fieldset[disabled] .ant-radio-vertical,
+fieldset[disabled] .ant-radio label,
+fieldset[disabled] input[type=checkbox],
+fieldset[disabled] input[type=radio],
+input[type=checkbox].disabled,
+input[type=checkbox][disabled],
+input[type=radio].disabled,
+input[type=radio][disabled] {
+  cursor: not-allowed
+}
+
+.ant-form-item {
+  font-size: 12px;
+  margin-bottom: 24px;
+  color: #666
+}
+
+.ant-form-item :not(.ant-form)>.ant-form-item,
+.ant-form-item>.ant-form-item {
+  margin-bottom: -24px
+}
+
+.ant-form-item-control {
+  line-height: 32px;
+  position: relative;
+  zoom: 1
+}
+
+.ant-form-item-control:after,
+.ant-form-item-control:before {
+  content: " ";
+  display: table
+}
+
+.ant-form-item-control:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0
+}
+
+.ant-form-item-with-help {
+  margin-bottom: 3px
+}
+
+.ant-form-item-label {
+  text-align: right;
+  vertical-align: middle;
+  padding: 7px 0;
+  display: inline-block
+}
+
+.ant-form-item-label label {
+  color: #666
+}
+
+.ant-form-item-label label:after {
+  content: ":";
+  margin: 0 8px 0 2px;
+  position: relative;
+  top: -.5px
+}
+
+.ant-form-item .ant-switch {
+  margin: 4px 0
+}
+
+.ant-form-explain {
+  line-height: 1.5;
+  margin-top: 3px
+}
+
+.ant-form-explain,
+.ant-form-extra {
+  color: #999
+}
+
+.ant-form-text {
+  display: inline-block;
+  padding-right: 8px
+}
+
+.ant-form-split {
+  display: block;
+  text-align: center
+}
+
+form .has-feedback .ant-input {
+  padding-right: 24px
+}
+
+form textarea.ant-input {
+  height: auto
+}
+
+form .ant-upload {
+  background: transparent
+}
+
+form input[type=checkbox],
+form input[type=radio] {
+  width: 14px;
+  height: 14px
+}
+
+form .ant-checkbox-inline,
+form .ant-radio-inline {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 8px
+}
+
+form .ant-checkbox-inline:first-child,
+form .ant-radio-inline:first-child {
+  margin-left: 0
+}
+
+form .ant-checkbox-vertical,
+form .ant-radio-vertical {
+  display: block
+}
+
+form .ant-checkbox-vertical+.ant-checkbox-vertical,
+form .ant-radio-vertical+.ant-radio-vertical {
+  margin-left: 0
+}
+
+form .ant-input-number {
+  margin-top: -1px;
+  margin-right: 8px
+}
+
+form .ant-cascader-picker,
+form .ant-select {
+  width: 100%
+}
+
+.ant-input-group-wrap .ant-select-selection {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0
+}
+
+.ant-input-group-wrap .ant-select-selection:hover {
+  border-color: #d9d9d9
+}
+
+.ant-input-group-wrap .ant-select-selection--single {
+  margin-left: -1px;
+  height: 32px;
+  background-color: #eee
+}
+
+.ant-input-group-wrap .ant-select-selection--single .ant-select-selection__rendered {
+  padding-left: 8px;
+  padding-right: 25px;
+  line-height: 30px
+}
+
+.ant-input-group-wrap .ant-select-open .ant-select-selection {
+  border-color: #d9d9d9;
+  box-shadow: none
+}
+
+.ant-form-horizontal .ant-form-item {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+  zoom: 1
+}
+
+.ant-form-horizontal .ant-form-item:after,
+.ant-form-horizontal .ant-form-item:before {
+  content: " ";
+  display: table
+}
+
+.ant-form-horizontal .ant-form-item:after {
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0
+}
+
+.ant-form-horizontal .ant-checkbox-inline,
+.ant-form-horizontal .ant-radio-inline {
+  vertical-align: baseline
+}
+
+.ant-form-inline .ant-form-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0
+}
+
+.ant-form-inline .ant-form-item-with-help {
+  margin-bottom: 24px
+}
+
+.ant-form-inline .ant-form-item>div,
+.ant-form-inline .ant-form-text,
+.ant-form-inline .has-feedback {
+  display: inline-block
+}
+
+.ant-form-inline .ant-form-explain {
+  position: absolute
+}
+
+.ant-form-horizontal label>input[type=checkbox],
+.ant-form-horizontal label>input[type=radio],
+.ant-form-inline label>input[type=checkbox],
+.ant-form-inline label>input[type=radio] {
+  margin-right: 4px
+}
+
+.has-error.has-feedback:after,
+.has-success.has-feedback:after,
+.has-warning.has-feedback:after,
+.is-validating.has-feedback:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: visible;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  -webkit-animation: zoomIn .3s cubic-bezier(.12, .4, .29, 1.46);
+  animation: zoomIn .3s cubic-bezier(.12, .4, .29, 1.46);
+  font-family: anticon;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: ""
+}
+
+.has-success.has-feedback:after {
+  -webkit-animation-name: diffZoomIn1 !important;
+  animation-name: diffZoomIn1 !important
+}
+
+.has-error.has-feedback:after {
+  -webkit-animation-name: diffZoomIn2 !important;
+  animation-name: diffZoomIn2 !important
+}
+
+.has-warning.has-feedback:after {
+  -webkit-animation-name: diffZoomIn3 !important;
+  animation-name: diffZoomIn3 !important
+}
+
+.has-success .ant-input {
+  border-color: #d9d9d9;
+  box-shadow: none
+}
+
+.has-success.has-feedback:after {
+  content: '\E62F';
+  color: #87d068
+}
+
+.has-warning .ant-form-explain,
+.has-warning .ant-form-split {
+  color: #fa0
+}
+
+.has-warning .ant-input,
+.has-warning .ant-input:focus,
+.has-warning .ant-input:hover {
+  border-color: #fa0;
+  box-shadow: 0 0 0 2px rgba(255, 170, 0, .2)
+}
+
+.has-warning .ant-input:not([disabled]):hover {
+  border-color: #fa0
+}
+
+.has-warning .ant-calendar-picker-open .ant-calendar-picker-input {
+  box-shadow: 0 0 0 2px rgba(255, 170, 0, .2)
+}
+
+.has-warning .ant-input-group-addon {
+  color: #fa0;
+  border-color: #fa0;
+  background-color: #fff
+}
+
+.has-warning .has-feedback {
+  color: #fa0
+}
+
+.has-warning.has-feedback:after {
+  content: '\E634';
+  color: #fa0
+}
+
+.has-warning .ant-select-selection {
+  border-color: #fa0;
+  box-shadow: 0 0 0 2px rgba(255, 170, 0, .2)
+}
+
+.has-warning .ant-calendar-picker-icon:after,
+.has-warning .ant-select-arrow,
+.has-warning .ant-time-picker-icon:after {
+  color: #fa0
+}
+
+.has-warning .ant-input-number,
+.has-warning .ant-time-picker-input {
+  border-color: #fa0;
+  box-shadow: 0 0 0 2px rgba(255, 170, 0, .2)
+}
+
+.has-warning .ant-input-number:not([disabled]):hover,
+.has-warning .ant-time-picker-input:not([disabled]):hover {
+  border-color: #fa0
+}
+
+.has-error .ant-form-explain,
+.has-error .ant-form-split {
+  color: #f50
+}
+
+.has-error .ant-input,
+.has-error .ant-input:focus,
+.has-error .ant-input:hover {
+  border-color: #f50;
+  box-shadow: 0 0 0 2px rgba(255, 85, 0, .2)
+}
+
+.has-error .ant-input:not([disabled]):hover {
+  border-color: #f50
+}
+
+.has-error .ant-calendar-picker-open .ant-calendar-picker-input {
+  box-shadow: 0 0 0 2px rgba(255, 85, 0, .2)
+}
+
+.has-error .ant-input-group-addon {
+  color: #f50;
+  border-color: #f50;
+  background-color: #fff
+}
+
+.has-error .has-feedback {
+  color: #f50
+}
+
+.has-error.has-feedback:after {
+  content: '\E631';
+  color: #f50
+}
+
+.has-error .ant-select-selection {
+  border-color: #f50;
+  box-shadow: 0 0 0 2px rgba(255, 85, 0, .2)
+}
+
+.has-error .ant-calendar-picker-icon:after,
+.has-error .ant-select-arrow,
+.has-error .ant-time-picker-icon:after {
+  color: #f50
+}
+
+.has-error .ant-input-number,
+.has-error .ant-time-picker-input {
+  border-color: #f50;
+  box-shadow: 0 0 0 2px rgba(255, 85, 0, .2)
+}
+
+.has-error .ant-input-number:not([disabled]):hover,
+.has-error .ant-time-picker-input:not([disabled]):hover {
+  border-color: #f50
+}
+
+.is-validating.has-feedback:after {
+  display: inline-block;
+  -webkit-animation: loadingCircle 1s infinite linear;
+  animation: loadingCircle 1s infinite linear;
+  content: "\E6A1";
+  color: #999
+}
+
+.ant-advanced-search-form .ant-form-item {
+  margin-bottom: 16px
+}
+
+.ant-advanced-search-form .ant-input,
+.ant-advanced-search-form .ant-input-group .ant-input,
+.ant-advanced-search-form .ant-input-group .ant-input-group-addon {
+  height: 28px
+}
+
+@-webkit-keyframes diffZoomIn1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@keyframes diffZoomIn1 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@-webkit-keyframes diffZoomIn2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@keyframes diffZoomIn2 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@-webkit-keyframes diffZoomIn3 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+@keyframes diffZoomIn3 {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1
+}
+
+.f--h,
+.f--s {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch
+}
+
+.f--s {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.f--hlc {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  align-items: center
+}
+
+.f--hlc,
+.f--hlt {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row
+}
+
+.f--hlt {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  justify-content: center
+}
+
+.f--hcc {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  align-items: center
+}
+
+.f--hcc,
+.f--slc {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  justify-content: center
+}
+
+.f--slc {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.hide {
+  display: none
+}
+
+.btn-clear {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none
+}
+
+.ul-clear {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+#DBItemView #DBItemViewBody .ant-col-r .container-scroll .item-container .item .inner-item .title,
+#EditBlockView #EditBlockViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-detail,
+#EditBlockView #EditBlockViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-obj,
+#EditBlockView #EditBlockViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-detail,
+#EditBlockView #EditBlockViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-obj,
+#EditBlockView #EditBlockViewHeader.property-header-class .property-header .header-name,
+#EditBlockView #EditClassViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-detail,
+#EditBlockView #EditClassViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-obj,
+#EditBlockView #EditClassViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-detail,
+#EditBlockView #EditClassViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-obj,
+#EditBlockView #EditClassViewHeader.property-header-class .property-header .header-name,
+#EditClassView #EditBlockViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-detail,
+#EditClassView #EditBlockViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-obj,
+#EditClassView #EditBlockViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-detail,
+#EditClassView #EditBlockViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-obj,
+#EditClassView #EditBlockViewHeader.property-header-class .property-header .header-name,
+#EditClassView #EditClassViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-detail,
+#EditClassView #EditClassViewBody .edit-class-body-layer .ant-form-horizontal .params-item .params-dropdown .title-group .title-obj,
+#EditClassView #EditClassViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-detail,
+#EditClassView #EditClassViewBody .edit-class-body-layer .ant-form .params-item .params-dropdown .title-group .title-obj,
+#EditClassView #EditClassViewHeader.property-header-class .property-header .header-name,
+#id-certification .id-certification-main .publish-content .content.content-loading .style-pop-up .pop-up-content .content-item .pop-input.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#id-certification .id-certification-main .publish-content .content .content-main .main-left .loading-background .color-input.loading-bg-div span,
+#id-certification .id-certification-main .publish-content .content .content-main .main-left .loading-group .loading-style .progress-type-select.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#id-certification .publish-main .publish-content .content.content-loading .style-pop-up .pop-up-content .content-item .pop-input.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#id-certification .publish-main .publish-content .content .content-main .main-left .loading-background .color-input.loading-bg-div span,
+#id-certification .publish-main .publish-content .content .content-main .main-left .loading-group .loading-style .progress-type-select.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#PropertyView #PropertyViewHeader .header-name,
+#PropertyView .db-view-com .db-mapping-group .db-mapping-text,
+#publish-work .id-certification-main .publish-content .content.content-loading .style-pop-up .pop-up-content .content-item .pop-input.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#publish-work .id-certification-main .publish-content .content .content-main .main-left .loading-background .color-input.loading-bg-div span,
+#publish-work .id-certification-main .publish-content .content .content-main .main-left .loading-group .loading-style .progress-type-select.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#publish-work .publish-main .publish-content .content.content-loading .style-pop-up .pop-up-content .content-item .pop-input.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#publish-work .publish-main .publish-content .content .content-main .main-left .loading-background .color-input.loading-bg-div span,
+#publish-work .publish-main .publish-content .content .content-main .main-left .loading-group .loading-style .progress-type-select.ant-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+#resourceTree .resource-group .resource-item .item-inner-wrap .item-title,
+#resourceTree .resource-group .resource-item .item-title-wrap .item-title,
+#resourceTree .resource-group .resource-page-item .item-inner-wrap .item-title,
+#resourceTree .resource-group .resource-page-item .item-title-wrap .item-title,
+#resourceTree .resource-group .resource-root-item .item-inner-wrap .item-title,
+#resourceTree .resource-group .resource-root-item .item-title-wrap .item-title,
+.bind-key-select .ant-select-dropdown-menu-item,
+.customer-service-header .default-header,
+.customer-service-header .name,
+.data-binding .binding-content .content-area .area-scroll .table-container .data-binding-table .binding-table-item .obj-title div,
+.data-binding .data-binding-menu .ant-dropdown-menu-item,
+.db-mapping-select .ant-select-dropdown-menu-item,
+.EventBox .EB--content-layer .Action .ant-dropdown-menu-item,
+.EventBox .EB--content-layer .Action .P--content .p--left .target-obj-input .ant-fake-input .input-title,
+.EventBox .EB--content-layer .Action .P--content .p--right .p--delay .delay-container .delay-input .ant-input-number-input,
+.EventBox .EB--content-layer .Action .P--content .p--right .p--extra .extra-row .oe-title div,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .create-obj-input .ant-fake-input,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .db-cons .in-compare-dropDown .title .title-name,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .db-cons .operation-dropDown .title,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .filter-col .in-compare-dropDown .title .title-name,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .filter-col .operation-dropDown .title,
+.EventBox .EB--content-layer .Action .P--content .p--right .pp--list .p--dropDown .title .inner-value,
+.EventBox .EB--content-layer .Con .item-memo .item-memo-detail .detail-memo.normal-memo .memo-input,
+.EventBox .EB--content-layer .Con .P--content .p--line .con-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Con .P--content .p--line .while-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Con .P--content .p--right .con-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Con .P--content .p--right .while-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Event .E--content .item-header .item-memo .item-memo-detail .detail-memo.normal-memo .memo-input,
+.EventBox .EB--content-layer .Event .E--content .item-header .item-title .dropDown-layer .dropDown .dropDown-input-full .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Event .E--content .item-header .item-title .dropDown-layer .title .inner-title,
+.EventBox .EB--content-layer .Event .E--content .item-header .item-title .zhong .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Loop .item-memo .item-memo-detail .detail-memo.normal-memo .memo-input,
+.EventBox .EB--content-layer .Loop .P--content .p--line .con-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Loop .P--content .p--line .while-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Loop .P--content .p--right .con-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--content-layer .Loop .P--content .p--right .while-list .event-condition-select .ant-select-selection .ant-select-selection__rendered .ant-select-selection-selected-value,
+.EventBox .EB--title .EB--title-name .name-wrap,
+.EventBox .EB--title .EB--title-search-wrap .object-list-wrap .item .text,
+.formulaInput .formula-mode .formula-obj-arrType-dropDown .arr-table .data-row .data-column-title,
+.formulaInput .formula-mode .formula-obj-arrType-dropDown .arr-table .data-row .data-row-title,
+.formulaInput .formula-mode .formula-obj-name,
+.formulaInput .formula-mode .formula-obj-property,
+.historyRecord .historyRecord-content li,
+.NavBar .nb--left .left-group .dropDown-btn2 .dropDownToggle ul li,
+.NavBar .nb--left .special-layer .app-li-content li,
+.NavBar .nb--left .special-layer .class-module-li-content li,
+.NavBar .nb--left .special-layer .create-li-content li,
+.NavBar .nb--left .special-layer .history-li-content li,
+.NavBar .nb--left .special-layer .open-li-content li,
+.object-prop .source-item .obj-title div,
+.object-prop .source-item .props-title div,
+.object-source-list .source-item .obj-title div,
+.object-source-list .source-item .props-title div,
+.ObjectTree .stage .fake-widget-title .fake-widget-name-wrap,
+.ObjectTree .stage .fake-widget-title .item-name-wrap,
+.ObjectTree .stage .fake-widget-title .stage-name-wrap,
+.ObjectTree .stage .fake-widget-title p,
+.ObjectTree .stage .item-title .fake-widget-name-wrap,
+.ObjectTree .stage .item-title .item-name-wrap,
+.ObjectTree .stage .item-title .stage-name-wrap,
+.ObjectTree .stage .item-title p,
+.ObjectTree .stage .stage-title .fake-widget-name-wrap,
+.ObjectTree .stage .stage-title .item-name-wrap,
+.ObjectTree .stage .stage-title .stage-name-wrap,
+.ObjectTree .stage .stage-title p,
+.propertyView #PropertyViewHeader .header-name,
+.propertyView .db-view-com .db-mapping-group .db-mapping-text,
+.TbCome .TC-content .TC-db .TC-db-content .item-layer .item .item-dropDown .iDropDown-content .iDropDown ul li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table
+}
+
+.clearfix:after {
+  clear: both
+}
+
+@keyframes editDb-big {
+  0% {
+    left: -194px
+  }
+  to {
+    left: 0
+  }
+}
+
+@-webkit-keyframes editDb-big {
+  0% {
+    left: -194px
+  }
+  to {
+    left: 0
+  }
+}
+
+@keyframes editDb-small {
+  0% {
+    right: -38px
+  }
+  to {
+    right: 0
+  }
+}
+
+@-webkit-keyframes editDb-small {
+  0% {
+    right: -38px
+  }
+  to {
+    right: 0
+  }
+}
+
+@keyframes toggle-show {
+  0% {
+    opacity: 1
+  }
+  49% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0
+  }
+  99% {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes toggle-show {
+  0% {
+    opacity: 1
+  }
+  49% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0
+  }
+  99% {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes save-loading {
+  0% {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@-webkit-keyframes save-loading {
+  0% {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+@keyframes dbSave {
+  0% {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #202f20;
+    opacity: 1;
+    z-index: 0
+  }
+  90% {
+    opacity: 1
+  }
+  to {
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    background: #202f20;
+    opacity: 0;
+    z-index: 0
+  }
+}
+
+@-webkit-keyframes dbSave {
+  0% {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #202f20;
+    opacity: 1;
+    z-index: 0
+  }
+  90% {
+    opacity: 1
+  }
+  to {
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    background: #202f20;
+    opacity: 0;
+    z-index: 0
+  }
+}
+
+body,
+html {
+  overflow: hidden 
+}
+
+
+
+.hidden {
+  display: none !important
+}
+
+#DesignView-Container,
+#iH5-App,
+#iH5-App-Container,
+.app-container {
+  height: 100%
+}
+
+#DesignView-Container {
+  overflow: hidden
+}
+
+#ToolBox {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  bottom: 0;
+  width: 37px;
+  border-right: 1px solid #151515;
+  background-color: #353535;
+  z-index: 110;
+  box-sizing: border-box
+}
+
+#ToolBox li,
+#ToolBox ul {
+  margin: 0;
+  padding: 0
+}
+
+#ToolBox li {
+  list-style-type: none
+}
+
+#ToolBox button {
+  outline: none;
+  background: none;
+  border: none
+}
+
+#ToolBox.expanded {
+  width: 65px
+}
+
+#ToolBox.expanded #ToolBoxHeader #ToolBoxHeaderExpanedButton {
+  background-position: 0 0
+}
+
+#ToolBox.expanded #ToolBoxHeader #ToolBoxHeaderExpanedButton:hover {
+  background-position: 0 -20px
+}
+
+#ToolBox.expanded #ToolBoxHeader #ToolBoxHeaderExpanedButton:active {
+  background-position: 0 -40px
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup {
+  border-bottom: 1px solid #2a2a2a;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-bottom: 2px;
+  text-align: left
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup>.ToolBoxButtonPrimary {
+  width: 28px
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup>.ToolBoxButtonPrimary:hover {
+  background-color: #262626
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup>.ToolBoxButtonPrimary.tool-expanded:hover {
+  background-color: #353535 !important
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup>.ToolBoxButtonPrimary.tool-expanded.active {
+  background-color: #282828 !important
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonPrimary {
+  display: none
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup {
+  display: block;
+  position: static;
+  border: none;
+  overflow: hidden;
+  padding: 0
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup .ToolBoxButton {
+  width: 28px;
+  padding-left: 0;
+  float: left
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup .ToolBoxButton.tool-expanded:hover {
+  background-color: #353535 !important
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup .ToolBoxButton.ToolBoxButtonPrimary.active {
+  background-color: #282828 !important
+}
+
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup .ToolBoxButton:after,
+#ToolBox.expanded .ToolBoxGroup .ToolBoxButtonGroup.hasSecondaryMenu>.ToolBoxButtonSubGroup .ToolBoxButtonName {
+  display: none
+}
+
+#ToolBox #ToolBoxHeader {
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #262626;
+  height: 11px
+}
+
+#ToolBox #ToolBoxHeader #ToolBoxHeaderExpanedButton {
+  border: none;
+  width: 20px;
+  height: 11px;
+  display: block;
+  background: url(//file.ih5.cn/v3/pixel/2324c502/eaaed20fe143ecc4c6bfc78aa10b1266.svg) no-repeat -30px 0
+}
+
+#ToolBox #ToolBoxHeader #ToolBoxHeaderExpanedButton:hover {
+  background-position: -30px -20px
+}
+
+#ToolBox #ToolBoxHeader #ToolBoxHeaderExpanedButton:active {
+  background-position: -30px -40px
+}
+
+#ToolBox .ToolBoxGroup {
+  padding-top: 4px;
+  padding-bottom: 4px
+}
+
+#ToolBox .ToolBoxButtonGroup {
+  position: relative;
+  margin-bottom: 2px
+}
+
+#ToolBox .ToolBoxButtonGroup>.ToolBoxButtonPrimary .ToolBoxButtonName {
+  display: none
+}
+
+#ToolBox .ToolBoxButtonGroup.hasSecondaryMenu .ToolBoxButtonPrimary {
+  position: relative
+}
+
+#ToolBox .ToolBoxButtonGroup.hasSecondaryMenu .ToolBoxButtonPrimary:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 4px solid #b5b5b5;
+  border-left: 4px solid transparent;
+  position: absolute;
+  right: 2px;
+  bottom: 2px
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton {
+  -webkit-appearance: none;
+  display: block;
+  border: none;
+  background: none
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 5px;
+  opacity: .6
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton:hover img {
+  opacity: 1
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton.active {
+  background: #1e1e1e;
+  border-radius: 2px
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton.active img {
+  opacity: 1
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButton:disabled {
+  opacity: .3;
+  cursor: not-allowed
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup {
+  display: none;
+  position: absolute;
+  left: 36px;
+  top: 0;
+  padding: 2px;
+  background-color: #353535;
+  border: 1px solid #000
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup.visible {
+  display: block;
+  background-color: #3e3e3e;
+  border: 1px solid #151515;
+  border-radius: 0 2px 2px 0;
+  box-shadow: 3px 3px 5px hsla(0, 0%, 8%, .5)
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup.visible img {
+  margin: 4px
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton {
+  width: 128px;
+  padding-left: 8px
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton:hover {
+  background-color: #282828 !important
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton:hover .ToolBoxButtonName {
+  color: #fff
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton.active {
+  background-color: transparent !important
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton.active:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-left: 4px solid #b5b5b5;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  left: 3px;
+  top: 9px
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton.active .ToolBoxButtonName {
+  color: #fff
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton img {
+  float: left
+}
+
+#ToolBox .ToolBoxButtonGroup .ToolBoxButtonSubGroup .ToolBoxButton .ToolBoxButtonName {
+  float: left;
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  color: #aeaeae
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, .6)
+}
+
+.tool-box-button-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.tool-box-button-modal .ant-modal {
+  height: 320px;
+  top: 0;
+  padding: 0
+}
+
+.tool-box-button-modal .ant-modal-content {
+  border-radius: 2px;
+  background-color: #353535;
+  box-shadow: 0 0 14px 5px rgba(0, 0, 0, .3)
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-header {
+  background-color: #545454;
+  padding: 0;
+  border-radius: 0;
+  border: none
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-header .ant-modal-title .title-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(//file.ih5.cn/v3/pixel/2324c502/9fdac89ea0fc4e43a6f070d61b421ed9.svg) no-repeat 0 0
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-header .ant-modal-title .title {
+  color: #fff;
+  height: 40px
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-header .ant-modal-title .title span {
+  height: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  vertical-align: top
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-body {
+  padding: 9.5px 9.5px 0
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-body .body-textarea {
+  width: 469px;
+  height: 200px;
+  background-color: #2f2f2f;
+  resize: none;
+  border: 1px solid #232323;
+  color: #fff;
+  outline: none;
+  padding: 5px
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer {
+  border: none;
+  text-align: center;
+  height: 66px;
+  padding: 20px 0
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn {
+  padding: 0;
+  border-radius: 2px;
+  width: 100px;
+  height: 26px;
+  color: #262626;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-ghost {
+  border: 1px solid #7b7b7b;
+  background-color: #7b7b7b;
+  outline: none
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-ghost:hover {
+  border: 1px solid #b5b5b5;
+  background-color: #b5b5b5
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-ghost:active {
+  border: 1px solid #545454;
+  background-color: #545454
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-primary {
+  margin-left: 40px;
+  border: 1px solid #b5b5b5;
+  background-color: #b5b5b5;
+  outline: none
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-primary:hover {
+  border: 1px solid #fff;
+  background-color: #fff
+}
+
+.tool-box-button-modal .ant-modal-content .ant-modal-footer .ant-btn-primary:active {
+  border: 1px solid #545454;
+  background-color: #545454
+}
+
+#ToolBox .toolbox-list.canScroll {
+  overflow-x: hidden;
+  overflow-y: scroll
+}
+
+#ToolBox .toolbox-list.canScroll::-webkit-scrollbar {
+  display: none !important
+}
+
+.object-context-menu {
+  position: absolute;
+  z-index: 1000;
+  background-color: #353535;
+  width: 132px;
+  border: 1px solid #151515;
+  box-shadow: 5px 5px 14px 5px rgba(0, 0, 0, .1)
+}
+
+.object-context-menu .menu-group {
+  padding: 3px 0
+}
+
+.object-context-menu .menu-group .menu-item {
+  cursor: pointer;
+  padding: 0 12px;
+  font-size: 12px;
+  height: 20px;
+  color: #b5b5b5;
+  text-align: center
+}
+
+.object-context-menu .menu-group .menu-item:hover {
+  background-color: #232323
+}
+
+.object-context-menu .menu-group-border {
+  border-bottom: 1px solid #232323
+}
+
+#iH5-App-Container {
+  position: relative;
+  top: 1px
+}
+
+#DesignView-Container .canvas-wraper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+#DesignView-Container.moveTag {
+  cursor: url(data:application/octet-stream;base64,AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAkAACMuAAAjLgAAAAAAAAAAAAD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkwICAv4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8CAgL+AAAAVAAAAAAAAAAAAAAAAP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAACWAQEB/5aWlv/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3/9NTU3+AAAA5gAAAAAAAAAAAAAAAP///wD///8A////AAAAAAAAAAAAAAAAAAAAAJIBAQH/oqKi///////////////////////////////////////////////////////Q0ND/AAAA/wAAAD8AAAAAAAAAAP///wD///8A////AAAAAAAAAAAAAAAAegEBAf+goKD/////////////////////////////////////////////////////////////////LS0t/QAAANAAAAAAAAAAAP///wD///8A////AAAAAAAAAABBAgIC/4uLi///////////////////////////////////////////////////////////////////////qamp/wEBAf8AAAAbAAAAAP///wD///8A////AAAAAAAAAADrQkJC/v//////////////////////////////////////////////////////////////////////////+/v7/w8PD/4AAACrAAAAAP///wD///8A////AAAAAEoAAAD/2NjY/////////////////////////////////////////////////////////////////////////////////319ff8BAQH6AAAAAv///wD///8A////AAAAAKIaGhr+/////////////////////////////////////////////////////////////////////////////////////+np6f8CAgL/AAAAcP///wD///8A////AAAAAK8sLCz9/////yEhIf6Ojo7///////////////////////////////////////////////////////////////////////////9PT0/9AAAA3P///wD///8A////AAAAAK8sLCz9/////wcHB/9jY2P9//////////////////////////////////////////////////////////////////////////+0tLT/AgIC/f///wD///8A////AAAAAK8rKyv9/////wcHB/9jY2P9///////////////////////////////////////////////////////////////////////////j4+P/AAAA/////wD///8A////AAAAAIMGBgb/6enp/wcHB/9jY2P9//////////////////////////////////////////////////////Hx8f+ampr//Pz8///////p6en/AAAA/////wD///8A////AAAAAAQBAQHmDw8P/gICAv9jY2P9///////////y8vL/8vLy/////////////////////////////////6+vr/8AAAD/wcHB///////Hx8f/AAAA/////wD///8A////AAAAAAAAAAACAAAAhAAAAPZeXl79//////////81NTX+Ozs7/v//////////0tLS/5ubm////////////6+vr/8AAAD/Dw8P/lxcXP0QEBD+AAAA3////wD///8A////AAAAAAAAAAAAAAAAAAAAAJsJCQn+pqam/42Njf8AAAD/LCws/f//////////ZmZm/gEBAf/r6+v//////4uLi/8AAADzAAAAjgAAAM0AAACeAAAACP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAIAAACvBAQE9wMDA/IAAADiJCQk/f//////////XFxc/QAAAP8UFBT+RkZG/QICAv8AAACUAAAAAAAAAAAAAAAAAAAAAP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAQEB/3h4eP+SkpL/BQUF/wAAAIwAAACQAAAAugAAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbQAAAOgBAQHvAAAAmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD+AA8A/AAPAPgABwDwAAcA4AADAOAAAwDAAAEAwAABAMAAAQDAAAEAwAABAMAAAQDAAAEA4AABAPgAAQD4AB8A/4A/AP/D/wD///8A////AP///wD///8A////AP///wA=), auto
+}
+
+#DesignView-Container.no-moveTag {
+  cursor: url(data:application/octet-stream;base64,AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAkAACMuAAAjLgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArgICAv4AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8CAgL+AAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAgIC/6mpqf/f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3/9NTU3+AAAA4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGoBAQH/np6e//////////////////////////////////////////////////////+8vLz/AgIC/wAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARgICAv52dnb+///////////////////////////////////////////////////////////8/Pz/CgoK/wAAAIsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAgIC+k9PT/7+/v7/////////////////////////////////////////////////////////////////W1tb/gAAAOMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4BAQHxLi4u/vn5+f//////////////////////////////////////////////////////////////////////vLy8/wEBAf8AAAAXAAAAAAAAAAAAAAAAAAAAAgAAAOAXFxf+7Ozs/////////////////////////////////////////////////////////////////////////////Pz8/w0NDf4AAACSAAAAAAAAAAAAAAAAAAAAwwkJCf/a2tr//////////////////////////////////////////////////////////////////////////////////////2BgYP4AAADlAAAAAAAAAAAAAACYAgIC/8PDw////////////6ampv80NDT9rq6u/////////////////////////////////////////////////////////////////8LCwv8BAQH/AAAAFwAAAAACAgL+mpqa///////9/f3/c3Nz/gEBAf8AAAD0JSUl/f////////////////////////////////////////////////////////////////39/f8NDQ3+AAAAkgAAAAACAgL9WFhY/qKiov8pKSn9AgIC/QAAAGUBAQH3g4OD//////////////////////////////////////////////////////////////////////9hYWH+AAAA6AAAAAAAAABaAAAA6gEBAfcAAADQAAAAKAAAAGsDAwP/6+vr//////////////////////////////////////////////////f39/+ysrL/9fX1///////ExMT/AQEB/wAAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOJQUFD9///////////U1NT/9fX1////////////8/Pz/9nZ2f///////////4SEhP8AAAD/a2tr/v/////+/v7/EBAQ/gAAAJgAAAAAAAAAAAAAAAAAAAAAAAAAPAEBAf/MzMz//////8jIyP8BAQH/cXFx/v//////////MzMz/gAAAP/Q0ND//////6qqqv8AAAD/AwMD/+Hh4f//////aGho/gAAAOgAAAAAAAAAAAAAAAAAAAAAAAAAzi4uLv3//////////zc3N/0AAAD/Xl5e/P//////////Dw8P/gAAAP+Hh4f//////93d3f8AAAD/AAAA+FRUVP7/////wMDA/wEBAf8AAAAAAAAAAAAAAAAAAAAfAgIC/7Ozs///////zc3N/wEBAf8AAADwXl5e/P//////////BwcH/wAAAO87Ozv9//////////8ICAj/AAAAvAEBAf++vr7/rKys/wEBAf8AAAAAAAAAAAAAAAAAAAC1GRkZ/v7+/v//////QEBA/QAAAOAAAADcXl5e/P//////////AQEB/wAAALgICAj//v7+//////8yMjL9AAAAuwAAALQAAAD/AAAA/wAAALkAAAAAAAAAAAAAAAICAgL9mJiY///////W1tb/AQEB/wAAAFQAAADWUlJS/f/////5+fn/AAAA/wAAAFUAAAD/1NTU//////9ubm7+AAAA5QAAAAAAAAAuAAAALgAAAAAAAAAAAAAAAAAAAEgAAAD/8/Pz//////9UVFT+AAAA6QAAAAAAAADPT09P/f/////v7+//AAAA/wAAACwBAQH3lZWV//////+qqqr/AgIC/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAD/ysrK/8rKyv8BAQH/AAAAZAAAAAAAAADPT09P/f/////f39//AAAA/wAAAB8AAADRSEhI/f/////Nzc3/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAA/wAAAP8AAADKAAAAAAAAAAAAAADPT09P/f/////V1dX/AAAA/wAAAAAAAAB2AwMD/6Wlpf9paWn/AgIC+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAAD8AAAAAAAAAAAAAAAAAAADMTExM/f/////Jycn/AQEB/wAAAAAAAAAAAAAAuAICAvwCAgL5AAAAbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcDAwM/sLCwv9hYWH+AQEB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAA3AEBAf8CAgL9AAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+AA8A/AAPAPgABwDwAAcA4AAHAMAAAwCAAAMAgAADAAAAAQAAAAEAAAABAAAAAAD4AAAA8AAAAPAAAADgAAAA4AAAAMAACQDAgA8AwIAPAOGCDwDzgw8A/4P/AP+D/wA=), auto
+}
+
+#DesignView-Container #line_top {
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #4affff;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  z-index: 49
+}
+
+#DesignView-Container .rulerWLine {
+  width: 100%;
+  height: 3px;
+  cursor: n-resize;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+#DesignView-Container .rulerWLine div {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #4affff
+}
+
+#DesignView-Container .rulerWLine.lock {
+  cursor: auto
+}
+
+#DesignView-Container .rulerHLine {
+  width: 3px;
+  height: 100%;
+  cursor: e-resize;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+#DesignView-Container .rulerHLine div {
+  width: 2px;
+  height: 100%;
+  border-right: 1px solid #4affff
+}
+
+#DesignView-Container .rulerHLine.lock {
+  cursor: auto
+}
+
+#DesignView-Container #line_left {
+  width: 0;
+  height: 100%;
+  border-right: 1px solid #4affff;
+  position: absolute;
+  left: -1px;
+  top: 0;
+  z-index: 49
+}
+
+#DesignView-Container .create-ruler-modal-container {
+  position: absolute;
+  z-index: 1;
+  left: -200px;
+  top: 500px;
+  background-color: #232323;
+  width: 161px;
+  text-align: center;
+  color: #fff;
+  height: 154px;
+  line-height: 1.5em
+}
+
+#DesignView-Container .create-ruler-modal-container .create-ruler-modal-header {
+  text-align: left;
+  padding-left: 1em;
+  height: 2em;
+  line-height: 2em;
+  background: #858585
+}
+
+#DesignView-Container .create-ruler-modal-container .create-ruler-modal-main {
+  padding: 1em
+}
+
+#DesignView-Container .create-ruler-modal-container .create-ruler-modal-main .title {
+  text-align: left
+}
+
+#DesignView-Container .create-ruler-modal-container .create-ruler-modal-main>input[type=text] {
+  width: 100%;
+  background: #151515;
+  border: none
+}
+
+#DesignView-Container .create-ruler-modal-container .create-ruler-modal-footer {
+  padding: 1em
+}
+
+#DesignView-Container .DesignView {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 60px;
+  left: 0;
+  line-height: .74
+}
+
+#DesignView-Container .DesignView .h_ruler_wraper {
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  overflow: hidden;
+  left: 0;
+  top: -14px
+}
+
+#DesignView-Container .DesignView #h_ruler {
+  background: url(../images/h-ruler.jpeg) repeat-x;
+  width: 130%;
+  height: 100%;
+  cursor: n-resize
+}
+
+#DesignView-Container .DesignView #h_ruler li {
+  width: 100px;
+  height: 100%;
+  text-align: left;
+  float: left;
+  font-size: 10px;
+  color: #535353;
+  line-height: 1.3;
+  padding-left: 4px
+}
+
+#DesignView-Container .DesignView #v_ruler {
+  // background: url(../images/v-ruler.jpeg) repeat-y;
+  width: 13px;
+  height: 100%;
+  position: absolute;
+  left: -13px;
+  top: 0;
+  cursor: e-resize;
+  overflow: hidden
+}
+
+#DesignView-Container .DesignView #v_ruler li {
+  width: 100%;
+  height: 100px
+}
+
+#DesignView-Container .DesignView #v_ruler li span {
+  font-size: 10px;
+  color: #535353;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  display: block;
+  padding-left: 5px
+}
+
+#DesignView-Container .DesignView canvas {
+  line-height: 1.5
+}
+
+#DesignView-Container .block-mode-cover {
+  background-color: rgba(0, 0, 0, .6);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: none
+}
+
+#DesignView-Container .block-mode-cover.cover-show {
+  display: block
+}
+
+#DesignView-Container .moveCover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 50
+}
+
+.ant-message-notice-content {
+  border-radius: 2px;
+  background-color: #232323;
+  border: 1px solid #313131;
+  color: #b5b5b5
+}
+
+#editArea {
+  position: absolute;
+  z-index: 999;
+  resize: none;
+  overflow-y: hidden;
+  background-color: transparent;
+  border: none
+}
+
+#editArea:focus {
+  outline: 0
+}
+
+#trackBoard {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 640px;
+  height: 100%;
+  background: transparent;
+  z-index: 1;
+  cursor: crosshair
+}
+
+.create-ruler-modal .ant-modal-content {
+  border-radius: initial;
+  background: #353535;
+  color: #a6a6a6
+}
+
+.create-ruler-modal .ant-modal-header {
+  border-radius: initial;
+  background: #545454;
+  border: none;
+  color: #fff;
+  padding: 0;
+  height: 40px;
+  position: relative
+}
+
+.create-ruler-modal .ant-modal-body,
+.create-ruler-modal .ant-modal-footer {
+  padding: 16px 30px;
+  border: none
+}
+
+.create-ruler-modal .ant-modal-body {
+  padding-bottom: 0
+}
+
+.create-ruler-modal .ant-modal-footer {
+  text-align: center
+}
+
+.create-ruler-modal .ant-modal-title {
+  line-height: 40px;
+  padding-left: 30px
+}
+
+.create-ruler-modal .ant-modal-title:before {
+  content: ' ';
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 40px;
+  left: 0;
+  background: url(../images/icon1.svg) no-repeat -880px -400px
+}
+
+.create-ruler-modal .field-title {
+  padding: .5em 0
+}
+
+.create-ruler-modal .direction-checkbox-container,
+.create-ruler-modal .pos-text-container {
+  background: #484848;
+  padding: .5em 1em
+}
+
+.create-ruler-modal .direction-checkbox {
+  border-radius: 2px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: url(../images/icon1.svg) no-repeat -320px -200px;
+  margin-right: 15px;
+  vertical-align: text-bottom;
+  margin-left: 30px
+}
+
+.create-ruler-modal .direction-checkbox.active {
+  background: url(../images/icon1.svg) no-repeat -320px -240px
+}
+
+.create-ruler-modal .pos-text {
+  padding: 0 1em;
+  width: 100%;
+  background: #484848;
+  border: none
+}
+
+.create-ruler-modal .pos-text:focus {
+  border: none;
+  outline: none
+}
+
+.create-ruler-modal .ant-btn {
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.create-ruler-modal .ant-btn-ghost {
+  background-color: #7a7a7a;
+  margin-right: 45px
+}
+
+.create-ruler-modal .ant-btn-ghost:hover {
+  color: #000
+}
+
+.create-ruler-modal .ant-btn-primary {
+  background-color: #b4b4b4
+}
+
+#treeDragTip {
+  color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  position: absolute;
+  border-radius: 2px
+}
+
+#treeDragTip span {
+  width: 16px;
+  background: url(../images/icon1.svg) no-repeat
+}
+
+#treeDragTip div,
+#treeDragTip span {
+  height: 16px;
+  display: block;
+  float: left
+}
+
+#treeDragTip div {
+  filter: alpha(opacity=60);
+  -moz-opacity: .6;
+  -khtml-opacity: .6;
+  opacity: .6;
+  background-color: #008700;
+  border-radius: 0 2px 2px 0;
+  line-height: 16px;
+  padding: 0 5px
+}
+
+#resourceTree .item-icon,
+.object-menu-item .item-icon {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  background: url(//file.ih5.cn/v3/pixel/2324c502/18f7f9d467cbc6585af2d4ea307f5b95.svg) no-repeat;
+  display: block
+}
+
+#PropertyView,
+.propertyView {
+  position: absolute;
+  width: 260px;
+  background: #232323;
+  height: calc(100% - 40px);
+  overflow: hidden;
+  z-index: 51;
+  transition: initial
+}
+
+#PropertyView.keep,
+.propertyView.keep {
+  height: 30px;
+  transition: .5s
+}
+
+#PropertyView .ant-form-horizontal.form_tableH,
+.propertyView .ant-form-horizontal.form_tableH {
+  transition: .6s;
+  overflow: hidden;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: none
+}
+
+#PropertyView .ant-form-horizontal.form_tableH.active,
+.propertyView .ant-form-horizontal.form_tableH.active {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 115px;
+  border-bottom: 1px solid #161616
+}
+
+#PropertyView #PropertyViewHeader,
+.propertyView #PropertyViewHeader {
+  background-color: #333;
+  color: #b5b5b5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 4px 12px;
+  height: 30px;
+  min-height: 30px;
+  line-height: 22px;
+  margin-left: -10px;
+}
+
+#PropertyView #PropertyViewHeader .header-name,
+.propertyView #PropertyViewHeader .header-name {
+  max-width: 175px;
+  margin-right: 1px
+}
+
+#PropertyView #PropertyViewHeader:hover,
+.propertyView #PropertyViewHeader:hover {
+  cursor: move
+}
+
+#PropertyView #PropertyViewHeader .btn,
+.propertyView #PropertyViewHeader .btn {
+  width: 32px;
+  height: 26px;
+  position: absolute;
+  right: 0;
+  background: url(../images/icon1.svg) no-repeat -1240px 0
+}
+
+#PropertyView #PropertyViewHeader .btn:hover,
+.propertyView #PropertyViewHeader .btn:hover {
+  background: url(../images/icon1.svg) no-repeat -1240px -40px
+}
+
+#PropertyView #PropertyViewHeader .btn.folded,
+.propertyView #PropertyViewHeader .btn.folded {
+  background: url(../images/icon1.svg) no-repeat -1160px -360px
+}
+
+#PropertyView #PropertyViewHeader .btn.folded:hover,
+.propertyView #PropertyViewHeader .btn.folded:hover {
+  background: url(../images/icon1.svg) no-repeat -1160px -400px
+}
+
+#PropertyView #PropertyViewHeader.property-header-class,
+.propertyView #PropertyViewHeader.property-header-class {
+  padding-left: 0
+}
+
+#PropertyView #PropertyViewHeader.property-header-class .property-header,
+.propertyView #PropertyViewHeader.property-header-class .property-header {
+  height: 30px;
+  padding: 0 12px;
+  background: #232323
+}
+
+#PropertyView #PropertyViewHeader.property-header-class .property-header .header-name,
+.propertyView #PropertyViewHeader.property-header-class .property-header .header-name {
+  max-width: 70px
+}
+
+#PropertyView #PropertyViewHeader.property-header-class .binding-property,
+.propertyView #PropertyViewHeader.property-header-class .binding-property {
+  position: relative;
+  width: auto;
+  background: none;
+  padding: 0 12px;
+  height: 30px;
+  background: #353535
+}
+
+#PropertyView #PropertyViewBody,
+#PropertyView .propertyViewBody,
+.propertyView #PropertyViewBody,
+.propertyView .propertyViewBody {
+  overflow-y: auto;
+  overflow-x: hidden
+}
+
+#PropertyView #PropertyViewBody .db-btn-group,
+.propertyView #PropertyViewBody .db-btn-group {
+  width: 100%;
+  height: 54px
+}
+
+#PropertyView #PropertyViewBody .db-btn-group .btn,
+.propertyView #PropertyViewBody .db-btn-group .btn {
+  border-radius: 2px;
+  width: 101px;
+  height: 22px;
+  color: #151515;
+  background: #858585;
+  font-size: 12px;
+  margin-right: 18px;
+  cursor: pointer
+}
+
+#PropertyView #PropertyViewBody .db-btn-group .btn:last-child,
+.propertyView #PropertyViewBody .db-btn-group .btn:last-child {
+  margin-right: 0
+}
+
+#PropertyView #PropertyViewBody .db-btn-group .btn:hover,
+.propertyView #PropertyViewBody .db-btn-group .btn:hover {
+  background: #fff
+}
+
+#PropertyView #PropertyViewBody .db-btn-group .btn:active,
+.propertyView #PropertyViewBody .db-btn-group .btn:active {
+  background: #545454
+}
+
+#PropertyView #PropertyViewBody .item-notice,
+.propertyView #PropertyViewBody .item-notice {
+  transform: scale(.9);
+  transform-origin: 0;
+  width: 110%;
+  margin-top: 2px
+}
+
+#PropertyView #PropertyViewBody .item-notice a,
+#PropertyView #PropertyViewBody .item-notice a:active,
+#PropertyView #PropertyViewBody .item-notice a:hover,
+.propertyView #PropertyViewBody .item-notice a,
+.propertyView #PropertyViewBody .item-notice a:active,
+.propertyView #PropertyViewBody .item-notice a:hover {
+  color: #ffa800
+}
+
+#PropertyView .custom-var,
+.propertyView .custom-var {
+  position: relative
+}
+
+#PropertyView .custom-var .custom-var-title,
+.propertyView .custom-var .custom-var-title {
+  height: 30px;
+  padding: 5px 12px;
+  min-height: 30px;
+  line-height: 22px;
+  color: #b5b5b5;
+  background-color: #353535
+}
+
+#PropertyView .custom-var .custom-var-title .btn-group,
+.propertyView .custom-var .custom-var-title .btn-group {
+  position: absolute;
+  right: 8px;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 22px
+}
+
+#PropertyView .custom-var .custom-var-title .btn-group .tool-btn,
+.propertyView .custom-var .custom-var-title .btn-group .tool-btn {
+  width: 40px;
+  color: #868686;
+  background-color: #353535
+}
+
+#PropertyView .custom-var .custom-var-title .btn-group .tool-btn:hover,
+.propertyView .custom-var .custom-var-title .btn-group .tool-btn:hover {
+  color: #b5b5b5;
+  background-color: #4c4c4c
+}
+
+#PropertyView .custom-var .custom-var-title .btn-group .tool-btn:active,
+.propertyView .custom-var .custom-var-title .btn-group .tool-btn:active {
+  color: #868686;
+  background-color: #232323
+}
+
+#PropertyView .custom-var .custom-var-title .btn-group .btn-separator,
+.propertyView .custom-var .custom-var-title .btn-group .btn-separator {
+  width: 1px;
+  height: 22px;
+  background-color: #4c4c4c
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item,
+.propertyView .custom-var .custom-var-content .custom-var-item {
+  padding: 4px;
+  margin: 0 8px 8px;
+  background-color: #353535;
+  border-radius: 4px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item.first-item-top,
+.propertyView .custom-var .custom-var-content .custom-var-item.first-item-top {
+  margin: 8px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .input-com-input,
+.propertyView .custom-var .custom-var-content .custom-var-item .input-com-input {
+  border-radius: 2px;
+  height: 22px;
+  transition: border .2s cubic-bezier(.645, .045, .355, 1), background .2s cubic-bezier(.645, .045, .355, 1), box-shadow .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item input,
+.propertyView .custom-var .custom-var-content .custom-var-item input {
+  background-color: #2a2a2a;
+  padding: 0 4px;
+  border: none;
+  color: #a0a0a0
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-name .input-com-input,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-name .input-com-input {
+  width: 100px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-value,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-value {
+  border-radius: 4px;
+  margin-left: 4px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-input,
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-number,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-input,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-number {
+  width: 120px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-number,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-value .input-com-number {
+  border: none
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .switch-div,
+.propertyView .custom-var .custom-var-content .custom-var-item .switch-div {
+  width: 124px;
+  min-width: 124px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .var-item-switch,
+.propertyView .custom-var .custom-var-content .custom-var-item .var-item-switch {
+  margin-left: 4px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .delete-btn,
+.propertyView .custom-var .custom-var-content .custom-var-item .delete-btn {
+  width: 16px;
+  height: 22px;
+  background: url(../images/icon1.svg) no-repeat -1281px -364px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .delete-btn:hover,
+.propertyView .custom-var .custom-var-content .custom-var-item .delete-btn:hover {
+  background-position: -1281px -404px
+}
+
+#PropertyView .custom-var .custom-var-content .custom-var-item .delete-btn:active,
+.propertyView .custom-var .custom-var-content .custom-var-item .delete-btn:active {
+  background-position: -1281px -444px
+}
+
+#PropertyView .ant-form-half.ant-body .ant-form-item-label label,
+.propertyView .ant-form-half.ant-body .ant-form-item-label label {
+  width: 85px !important
+}
+
+#PropertyView .ant-form-half.ant-widthAuto .ant-form-item-label label,
+.propertyView .ant-form-half.ant-widthAuto .ant-form-item-label label {
+  width: auto !important
+}
+
+#PropertyView .ant-form-full,
+.propertyView .ant-form-full {
+  margin-bottom: 12px
+}
+
+#PropertyView .ant-form-full:last-child,
+.propertyView .ant-form-full:last-child {
+  margin-bottom: 0
+}
+
+#PropertyView .ant-form-full.ant-body .ant-form-item-label label,
+.propertyView .ant-form-full.ant-body .ant-form-item-label label {
+  width: 85px !important
+}
+
+#PropertyView .ant-form-full.ant-body .ant-slider,
+.propertyView .ant-form-full.ant-body .ant-slider {
+  margin: 10px 4px
+}
+
+#PropertyView .ant-form-full .ant-input-number.ant-input-number-sm,
+.propertyView .ant-form-full .ant-input-number.ant-input-number-sm {
+  width: 100%
+}
+
+#PropertyView .ant-form-full.ant-rotation .ant-input-number,
+.propertyView .ant-form-full.ant-rotation .ant-input-number {
+  width: 60px !important
+}
+
+#PropertyView .ant-form-full.ant-widthAuto .ant-form-item-label label,
+.propertyView .ant-form-full.ant-widthAuto .ant-form-item-label label {
+  width: auto !important
+}
+
+#PropertyView .left-long,
+.propertyView .left-long {
+  width: 180px !important
+}
+
+#PropertyView .left-long .ant-select,
+.propertyView .left-long .ant-select {
+  width: 100% !important;
+  max-width: 120px
+}
+
+#PropertyView .right-short,
+.propertyView .right-short {
+  width: 58px !important;
+  margin-left: 7px !important;
+  padding-top: 1px
+}
+
+#PropertyView .right-short .ant-input-number,
+.propertyView .right-short .ant-input-number {
+  width: 58px
+}
+
+#PropertyView .height-icon .ant-col-r,
+.propertyView .height-icon .ant-col-r {
+  position: relative !important
+}
+
+#PropertyView .height-icon .ant-col-r:before,
+.propertyView .height-icon .ant-col-r:before {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  z-index: 99;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../images/1.svg) no-repeat -140px 0;
+  pointer-events: none
+}
+
+#PropertyView .height-icon .ant-col-r .ant-input-number-handler-wrap,
+.propertyView .height-icon .ant-col-r .ant-input-number-handler-wrap {
+  z-index: 100
+}
+
+#PropertyView .showName-hidden,
+.propertyView .showName-hidden {
+  height: auto !important
+}
+
+#PropertyView .showName-hidden .ant-col-l,
+#PropertyView .switch-hidden .ant-switch,
+.propertyView .showName-hidden .ant-col-l,
+.propertyView .switch-hidden .ant-switch {
+  display: none !important
+}
+
+#PropertyView .margin-0,
+.propertyView .margin-0 {
+  margin-bottom: 0 !important
+}
+
+#PropertyView .ant-col-r .ant-form-item-control .vrf-code-icon,
+.propertyView .ant-col-r .ant-form-item-control .vrf-code-icon {
+  margin-left: 2px;
+  background: url(../images/icon1.svg) no-repeat -1121px -641px;
+  width: 16px;
+  height: 16px
+}
+
+#PropertyView .ant-col-r .ant-form-item-control .vrf-code-icon:hover,
+.propertyView .ant-col-r .ant-form-item-control .vrf-code-icon:hover {
+  background-position: -1121px -681px
+}
+
+#PropertyView .ant-btn-primary,
+.propertyView .ant-btn-primary {
+  border-radius: 2px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 180px;
+  background: #858585;
+  color: #151515;
+  margin-left: 65px;
+  padding: 0
+}
+
+#PropertyView .ant-btn-primary:hover,
+.propertyView .ant-btn-primary:hover {
+  background: #fff
+}
+
+#PropertyView .ant-btn-primary:active,
+.propertyView .ant-btn-primary:active {
+  background: #545454
+}
+
+// #PropertyView .ant-input-number,
+// #PropertyView .ant-input-number-input-wrap,
+// .propertyView .ant-input-number,
+// .propertyView .ant-input-number-input-wrap {
+//   height: 22px !important;
+//   line-height: 22px !important
+// }
+// #PropertyView .ant-input-number-input-wrap input,
+// .propertyView .ant-input-number-input-wrap input {
+//   padding-right: 20px;
+//   height: 22px !important;
+//   line-height: 22px !important
+// }
+#PropertyView .ant-input-number-input-wrap:after,
+.propertyView .ant-input-number-input-wrap:after {
+  top: -1px !important
+}
+
+#PropertyView .ant-input-number-handler-wrap,
+.propertyView .ant-input-number-handler-wrap {
+  transition: initial
+}
+
+#PropertyView .ant-input-number-handler-wrap a,
+.propertyView .ant-input-number-handler-wrap a {
+  height: 10px !important
+}
+
+#PropertyView .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner,
+.propertyView .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner {
+  top: -1px !important
+}
+
+#PropertyView .ant-input-number-handler-wrap a.ant-input-number-handler-down .ant-input-number-handler-down-inner,
+.propertyView .ant-input-number-handler-wrap a.ant-input-number-handler-down .ant-input-number-handler-down-inner {
+  top: 1px !important
+}
+
+#PropertyView .css3dImg-btn-div,
+.propertyView .css3dImg-btn-div {
+  margin-left: 65px
+}
+
+#PropertyView .css3dImg-btn-div .css3dImg-btn,
+.propertyView .css3dImg-btn-div .css3dImg-btn {
+  margin-left: 0
+}
+
+#PropertyView .css3dImg-btn-div .css3dImg-warn,
+.propertyView .css3dImg-btn-div .css3dImg-warn {
+  color: #ffa800;
+  text-align: center;
+  margin-top: 5px;
+  transform: scale(.9);
+  display: none
+}
+
+#PropertyView .css3dImg-btn-div:hover .css3dImg-warn,
+.propertyView .css3dImg-btn-div:hover .css3dImg-warn {
+  display: block
+}
+
+#PropertyView .threeboxImgs-btn-div,
+.propertyView .threeboxImgs-btn-div {
+  margin-left: 65px
+}
+
+#PropertyView .threeboxImgs-btn-div .threeboxImgs-btn,
+.propertyView .threeboxImgs-btn-div .threeboxImgs-btn {
+  margin-left: 0
+}
+
+#PropertyView .threeboxImgs-btn-div .threeboxImgs-warn,
+.propertyView .threeboxImgs-btn-div .threeboxImgs-warn {
+  color: #ffa800;
+  text-align: center;
+  margin-top: 5px;
+  transform: scale(.9);
+  display: none
+}
+
+#PropertyView .threeboxImgs-btn-div:hover .threeboxImgs-warn,
+.propertyView .threeboxImgs-btn-div:hover .threeboxImgs-warn {
+  display: block
+}
+
+#PropertyView .TdLayout span,
+.propertyView .TdLayout span {
+  width: 22px;
+  height: 22px;
+  display: block;
+  margin-right: 10px;
+  background: url(../images/icon1.svg) no-repeat;
+  cursor: pointer
+}
+
+#PropertyView .TdLayout span:nth-child(1),
+.propertyView .TdLayout span:nth-child(1) {
+  background-position: -1760px -200px
+}
+
+#PropertyView .TdLayout span:nth-child(1):hover,
+.propertyView .TdLayout span:nth-child(1):hover {
+  background-position: -1760px -240px
+}
+
+#PropertyView .TdLayout span:nth-child(1).active,
+.propertyView .TdLayout span:nth-child(1).active {
+  background-position: -1760px -280px !important
+}
+
+#PropertyView .TdLayout span:nth-child(2),
+.propertyView .TdLayout span:nth-child(2) {
+  background-position: -1800px -200px
+}
+
+#PropertyView .TdLayout span:nth-child(2):hover,
+.propertyView .TdLayout span:nth-child(2):hover {
+  background-position: -1800px -240px
+}
+
+#PropertyView .TdLayout span:nth-child(2).active,
+.propertyView .TdLayout span:nth-child(2).active {
+  background-position: -1800px -280px !important
+}
+
+#PropertyView .TdLayout span:nth-child(3),
+.propertyView .TdLayout span:nth-child(3) {
+  background-position: -1840px -200px
+}
+
+#PropertyView .TdLayout span:nth-child(3):hover,
+.propertyView .TdLayout span:nth-child(3):hover {
+  background-position: -1840px -240px
+}
+
+#PropertyView .TdLayout span:nth-child(3).active,
+.propertyView .TdLayout span:nth-child(3).active {
+  background-position: -1840px -280px !important
+}
+
+#PropertyView .TdLayout span:nth-child(4),
+.propertyView .TdLayout span:nth-child(4) {
+  background-position: -1880px -200px
+}
+
+#PropertyView .TdLayout span:nth-child(4):hover,
+.propertyView .TdLayout span:nth-child(4):hover {
+  background-position: -1880px -240px
+}
+
+#PropertyView .TdLayout span:nth-child(4).active,
+.propertyView .TdLayout span:nth-child(4).active {
+  background-position: -1880px -280px !important
+}
+
+#PropertyView .table-form_basic_btn,
+.propertyView .table-form_basic_btn {
+  border-radius: 2px;
+  width: 176px;
+  height: 22px;
+  font-size: 12px;
+  color: #151515;
+  background: #858585;
+  cursor: pointer;
+  margin-left: 60px
+}
+
+#PropertyView .table-form_basic_btn:hover,
+.propertyView .table-form_basic_btn:hover {
+  background: #fff
+}
+
+#PropertyView .table-form_basic_btn:active,
+.propertyView .table-form_basic_btn:active {
+  background: #545454
+}
+
+#PropertyView .TbColor-icon,
+#PropertyView .TbSelect-icon,
+.propertyView .TbColor-icon,
+.propertyView .TbSelect-icon {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../images/1.svg) no-repeat
+}
+
+#PropertyView .TbSelect-icon,
+.propertyView .TbSelect-icon {
+  background-position: -120px 0
+}
+
+#PropertyView .TbColor-icon,
+.propertyView .TbColor-icon {
+  background-position: -140px 0
+}
+
+#PropertyView .ant-form-horizontal,
+.propertyView .ant-form-horizontal {
+  padding: 12px 15px 12px 0;
+  border-bottom: 1px solid #161616
+}
+
+#PropertyView .ant-form-horizontal:after,
+#PropertyView .ant-form-horizontal:before,
+.propertyView .ant-form-horizontal:after,
+.propertyView .ant-form-horizontal:before {
+  content: " ";
+  display: table;
+  clear: both
+}
+
+#PropertyView .ant-form-horizontal.stageLoopSet:nth-child(4) .ant-form-full:nth-last-child(1) .ant-form-item-label label,
+.propertyView .ant-form-horizontal.stageLoopSet:nth-child(4) .ant-form-full:nth-last-child(1) .ant-form-item-label label {
+  width: 85px;
+  text-align: left
+}
+
+#PropertyView .ant-form-horizontal.flexContainer,
+.propertyView .ant-form-horizontal.flexContainer {
+  position: relative;
+  width: 98%;
+  margin: 0 auto
+}
+
+#PropertyView .ant-form-horizontal.flexContainer .ant-form-half,
+.propertyView .ant-form-horizontal.flexContainer .ant-form-half {
+  width: 120px
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(1),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(1) {
+  padding-bottom: 20px;
+  border: none
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(2),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(2) {
+  border: 1px solid #161616;
+  border-top-left-radius: 4px;
+  border-bottom: none;
+  border-top-right-radius: 4px
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(2):before,
+.propertyView .ant-form-horizontal.flexContainer:nth-child(2):before {
+  content: '\81EA\8EAB\5C5E\6027';
+  position: absolute;
+  left: 7px;
+  top: -10px;
+  color: #fff;
+  background: #232323
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(3),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(3) {
+  border: 1px solid #161616;
+  border-bottom: none
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(3) .slider-per,
+.propertyView .ant-form-horizontal.flexContainer:nth-child(3) .slider-per {
+  width: 52%
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(4),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(4) {
+  border: 1px solid #161616;
+  border-bottom: none;
+  border-top: none
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(5),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(5) {
+  border: 1px solid #161616;
+  border-bottom: none
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(6),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(6) {
+  border: 1px solid #161616
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(7),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(7) {
+  border: 1px solid #161616;
+  border-top: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-bottom: 25px
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(8),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(8) {
+  padding-top: 15px;
+  border: 1px solid #161616;
+  border-top-left-radius: 4px;
+  border-bottom: none;
+  border-top-right-radius: 4px
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(8):before,
+.propertyView .ant-form-horizontal.flexContainer:nth-child(8):before {
+  content: '\5185\90E8\5143\7D20\5C5E\6027';
+  position: absolute;
+  left: 7px;
+  top: -10px;
+  color: #fff;
+  background: #232323
+}
+
+#PropertyView .ant-form-horizontal.flexContainer:nth-child(9),
+.propertyView .ant-form-horizontal.flexContainer:nth-child(9) {
+  border: 1px solid #161616;
+  border-top: none;
+  margin-bottom: 15px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px
+}
+
+#PropertyView .ant-form-horizontal:last-child,
+.propertyView .ant-form-horizontal:last-child {
+  margin-bottom: 0;
+  border-bottom: none
+}
+
+#PropertyView .ant-form-horizontal>.ant-form-half,
+.propertyView .ant-form-horizontal>.ant-form-half {
+  margin-bottom: 12px
+}
+
+#PropertyView .ant-form-horizontal>.ant-form-half:last-child,
+.propertyView .ant-form-horizontal>.ant-form-half:last-child {
+  margin-bottom: 0
+}
+
+#PropertyView .ant-form-horizontal>.ant-form-half:last-child .ant-input-number,
+.propertyView .ant-form-horizontal>.ant-form-half:last-child .ant-input-number {
+  margin-right: 0
+}
+
+#PropertyView .ant-form-horizontal>.ant-form-half:nth-last-child(2),
+.propertyView .ant-form-horizontal>.ant-form-half:nth-last-child(2) {
+  margin-bottom: 0
+}
+
+#PropertyView .ant-form-horizontal>.ant-form-full .ant-form-item-label label,
+#PropertyView .ant-form-horizontal>.ant-form-half:nth-child(even) .ant-form-item-label label,
+#PropertyView .ant-form-horizontal>.ant-form-half:nth-child(odd) .ant-form-item-label label,
+.propertyView .ant-form-horizontal>.ant-form-full .ant-form-item-label label,
+.propertyView .ant-form-horizontal>.ant-form-half:nth-child(even) .ant-form-item-label label,
+.propertyView .ant-form-horizontal>.ant-form-half:nth-child(odd) .ant-form-item-label label {
+  width: 65px
+}
+
+#PropertyView .ant-collapse,
+.propertyView .ant-collapse {
+  width: 280px;
+  border-radius: 0;
+  border: 1px solid #1a1a1a
+}
+
+#PropertyView .ant-collapse>.ant-collapse-item,
+.propertyView .ant-collapse>.ant-collapse-item {
+  border-top: 1px solid #1a1a1a
+}
+
+#PropertyView .ant-collapse>.ant-collapse-item:last-child>.ant-collapse-content,
+.propertyView .ant-collapse>.ant-collapse-item:last-child>.ant-collapse-content {
+  border-radius: 0
+}
+
+#PropertyView .ant-collapse-header,
+.propertyView .ant-collapse-header {
+  background-color: #353535;
+  color: #b5b5b5
+}
+
+#PropertyView .ant-collapse-content,
+.propertyView .ant-collapse-content {
+  background-color: #232323
+}
+
+#PropertyView .ant-form-item-label label,
+.propertyView .ant-form-item-label label {
+  color: #a0a0a0;
+  text-overflow: inherit !important
+}
+
+#PropertyView .ant-form-item-label label .originPos,
+.propertyView .ant-form-item-label label .originPos {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  background: url(../images/1.svg) no-repeat -60px 0
+}
+
+#PropertyView .ant-form-item-label label .rotation,
+.propertyView .ant-form-item-label label .rotation {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  background: url(../images/1.svg) no-repeat -80px 0
+}
+
+#PropertyView .ant-form-item-label label .ant-lock,
+.propertyView .ant-form-item-label label .ant-lock {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: -1px;
+  background: url(../images/1.svg) no-repeat -100px 0;
+  left: 17px;
+  cursor: pointer
+}
+
+#PropertyView .ant-form-item-label label .ant-lock:hover,
+.propertyView .ant-form-item-label label .ant-lock:hover {
+  background-position: -100px -20px
+}
+
+#PropertyView .ant-form-item-label label .ant-lock.ant-lock-left,
+.propertyView .ant-form-item-label label .ant-lock.ant-lock-left {
+  left: 0
+}
+
+#PropertyView .ant-form-item-label label .ant-lock-checked,
+#PropertyView .ant-form-item-label label .ant-lock-checked:hover,
+.propertyView .ant-form-item-label label .ant-lock-checked,
+.propertyView .ant-form-item-label label .ant-lock-checked:hover {
+  background-position: -100px -40px
+}
+
+#PropertyView .ant-switch,
+.propertyView .ant-switch {
+  border: 1px solid #151515;
+  background-color: #151515;
+  height: 16px !important;
+  width: 32px !important
+}
+
+#PropertyView .ant-switch-small:after,
+#PropertyView .var-item-switch:after,
+.propertyView .ant-switch-small:after,
+.propertyView .var-item-switch:after {
+  height: 14px !important;
+  width: 14px !important;
+  top: 0;
+  left: 0
+}
+
+#PropertyView .ant-switch:after,
+.propertyView .ant-switch:after {
+  background-color: #858585
+}
+
+#PropertyView .ant-switch-checked,
+.propertyView .ant-switch-checked {
+  border-color: #ffa800;
+  background-color: #ffa800
+}
+
+#PropertyView .ant-switch-checked:after,
+.propertyView .ant-switch-checked:after {
+  left: 16px
+}
+
+#PropertyView .ant-form-item.ant-form-half,
+.propertyView .ant-form-item.ant-form-half {
+  width: 120px;
+  float: left;
+  height: 22px
+}
+
+#PropertyView .ant-form-item.ant-form-half+div.ant-form-full,
+.propertyView .ant-form-item.ant-form-half+div.ant-form-full {
+  clear: both
+}
+
+#PropertyView .ant-form-item.ant-form-half .ant-select-enabled,
+#PropertyView .ant-form-item.ant-rotatio .input-com-number,
+.propertyView .ant-form-item.ant-form-half .ant-select-enabled,
+.propertyView .ant-form-item.ant-rotatio .input-com-number {
+  width: 60px
+}
+
+#PropertyView .ant-form-item .cancel-btn,
+#PropertyView .ant-form-item .create-btn,
+#PropertyView .ant-form-item .edit-btn,
+#PropertyView .ant-form-item .play-btn,
+#PropertyView .ant-form-item .save-btn,
+#PropertyView .ant-form-item .saveAs-btn,
+#PropertyView .ant-form-item .tween-btn,
+.propertyView .ant-form-item .cancel-btn,
+.propertyView .ant-form-item .create-btn,
+.propertyView .ant-form-item .edit-btn,
+.propertyView .ant-form-item .play-btn,
+.propertyView .ant-form-item .save-btn,
+.propertyView .ant-form-item .saveAs-btn,
+.propertyView .ant-form-item .tween-btn {
+  border-radius: 2px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer
+}
+
+#PropertyView .ant-form-item .create-btn,
+#PropertyView .ant-form-item .tween-btn,
+.propertyView .ant-form-item .create-btn,
+.propertyView .ant-form-item .tween-btn {
+  width: 170px;
+  background: #858585;
+  color: #151515;
+  margin-left: 40px
+}
+
+#PropertyView .ant-form-item .create-btn:hover,
+#PropertyView .ant-form-item .tween-btn:hover,
+.propertyView .ant-form-item .create-btn:hover,
+.propertyView .ant-form-item .tween-btn:hover {
+  background: #fff
+}
+
+#PropertyView .ant-form-item .create-btn:active,
+#PropertyView .ant-form-item .tween-btn:active,
+.propertyView .ant-form-item .create-btn:active,
+.propertyView .ant-form-item .tween-btn:active {
+  background: #545454
+}
+
+#PropertyView .ant-form-item .tween-btn,
+.propertyView .ant-form-item .tween-btn {
+  margin-top: 6px
+}
+
+#PropertyView .ant-form-item .tween-btn.tween-long-btn,
+.propertyView .ant-form-item .tween-btn.tween-long-btn {
+  margin-left: 15px;
+  width: 220px
+}
+
+#PropertyView .ant-form-item .apiedit-btn,
+#PropertyView .ant-form-item .apitest-btn,
+.propertyView .ant-form-item .apiedit-btn,
+.propertyView .ant-form-item .apitest-btn {
+  background: #858585;
+  color: #151515;
+  font-size: 12px;
+  line-height: 22px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 18px;
+  float: right;
+  border-radius: 2px
+}
+
+#PropertyView .ant-form-item .apiedit-btn:hover,
+#PropertyView .ant-form-item .apitest-btn:hover,
+.propertyView .ant-form-item .apiedit-btn:hover,
+.propertyView .ant-form-item .apitest-btn:hover {
+  background: #b5b5b5
+}
+
+#PropertyView .ant-form-item .apiedit-btn:active,
+#PropertyView .ant-form-item .apitest-btn:active,
+.propertyView .ant-form-item .apiedit-btn:active,
+.propertyView .ant-form-item .apitest-btn:active {
+  background: #545454
+}
+
+#PropertyView .ant-form-item .apiedit-btn,
+.propertyView .ant-form-item .apiedit-btn {
+  position: relative;
+  left: 24px
+}
+
+#PropertyView .ant-form-item .apitest-btn,
+.propertyView .ant-form-item .apitest-btn {
+  position: relative;
+  left: 5px
+}
+
+#PropertyView .ant-form-item .edit-btn,
+#PropertyView .ant-form-item .play-btn,
+#PropertyView .ant-form-item .save-btn,
+#PropertyView .ant-form-item .saveAs-btn,
+.propertyView .ant-form-item .edit-btn,
+.propertyView .ant-form-item .play-btn,
+.propertyView .ant-form-item .save-btn,
+.propertyView .ant-form-item .saveAs-btn {
+  width: 103px;
+  background: #858585;
+  color: #151515
+}
+
+#PropertyView .ant-form-item .edit-btn:hover,
+#PropertyView .ant-form-item .play-btn:hover,
+#PropertyView .ant-form-item .save-btn:hover,
+#PropertyView .ant-form-item .saveAs-btn:hover,
+.propertyView .ant-form-item .edit-btn:hover,
+.propertyView .ant-form-item .play-btn:hover,
+.propertyView .ant-form-item .save-btn:hover,
+.propertyView .ant-form-item .saveAs-btn:hover {
+  background: #fff
+}
+
+#PropertyView .ant-form-item .edit-btn:active,
+#PropertyView .ant-form-item .play-btn:active,
+#PropertyView .ant-form-item .save-btn:active,
+#PropertyView .ant-form-item .saveAs-btn:active,
+.propertyView .ant-form-item .edit-btn:active,
+.propertyView .ant-form-item .play-btn:active,
+.propertyView .ant-form-item .save-btn:active,
+.propertyView .ant-form-item .saveAs-btn:active {
+  background: #545454
+}
+
+#PropertyView .ant-form-item .play-btn,
+#PropertyView .ant-form-item .save-btn,
+.propertyView .ant-form-item .play-btn,
+.propertyView .ant-form-item .save-btn {
+  margin-left: 15px
+}
+
+#PropertyView .ant-form-item .edit-btn,
+#PropertyView .ant-form-item .saveAs-btn,
+.propertyView .ant-form-item .edit-btn,
+.propertyView .ant-form-item .saveAs-btn {
+  margin-left: 9px
+}
+
+#PropertyView .ant-form-item .edit-btn.is_system,
+#PropertyView .ant-form-item .saveAs-btn.is_system,
+.propertyView .ant-form-item .edit-btn.is_system,
+.propertyView .ant-form-item .saveAs-btn.is_system {
+  width: 220px;
+  margin-left: 15px
+}
+
+#PropertyView .ant-form-item .cancel-btn,
+.propertyView .ant-form-item .cancel-btn {
+  width: 220px;
+  border: 1px solid #7b7b7b;
+  color: #7b7b7b;
+  margin-left: 15px;
+  margin-top: 6px
+}
+
+#PropertyView .ant-form-item .cancel-btn:hover,
+.propertyView .ant-form-item .cancel-btn:hover {
+  background: #7b7b7b;
+  color: #151515
+}
+
+#PropertyView .ant-form-item .cancel-btn:active,
+.propertyView .ant-form-item .cancel-btn:active {
+  background: #545454;
+  border-color: #545454;
+  color: #151515
+}
+
+#PropertyView .ant-form-item .ant-form-item-label,
+.propertyView .ant-form-item .ant-form-item-label {
+  padding: 0
+}
+
+#PropertyView .ant-form-item .ant-form-item-label label,
+.propertyView .ant-form-item .ant-form-item-label label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block
+}
+
+#PropertyView .ant-form-item .ant-col-r,
+.propertyView .ant-form-item .ant-col-r {
+  flex: 1
+}
+
+#PropertyView .ant-form-item .ant-col-r .ant-input-wrapper input,
+#PropertyView .ant-form-item .ant-col-r .input-com-wrapper input,
+.propertyView .ant-form-item .ant-col-r .ant-input-wrapper input,
+.propertyView .ant-form-item .ant-col-r .input-com-wrapper input {
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-input,
+.propertyView .ant-form-item .ant-col-r .input-com-input {
+  padding: 4px 7px;
+  width: 100%;
+  border: 1px solid #444;
+  border-radius: 2px;
+  color: #a0a0a0;
+  background-color: #353535;
+  transition: border .2s cubic-bezier(.645, .045, .355, 1), background .2s cubic-bezier(.645, .045, .355, 1), box-shadow .2s cubic-bezier(.645, .045, .355, 1)
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-input:focus,
+.propertyView .ant-form-item .ant-col-r .input-com-input:focus {
+  color: #fefefe
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-input:disabled,
+.propertyView .ant-form-item .ant-col-r .input-com-input:disabled {
+  cursor: not-allowed
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-textarea,
+.propertyView .ant-form-item .ant-col-r .input-com-textarea {
+  resize: vertical
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar,
+#PropertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar-thumb,
+.propertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar,
+.propertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar-thumb {
+  display: none !important
+}
+
+#PropertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar-corner,
+.propertyView .ant-form-item .ant-col-r .input-com-textarea::-webkit-scrollbar-corner {
+  display: none !important
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .ant-input-wrapper,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .ant-input-wrapper input,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .input-com-wrapper,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .input-com-wrapper input,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-input-wrapper,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .ant-input-wrapper input,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .input-com-wrapper,
+#PropertyView .ant-form-item .ant-col-r.tbFSStyle .input-com-wrapper input,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .ant-input-wrapper,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .ant-input-wrapper input,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .input-com-wrapper,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-form-item-control .input-com-wrapper input,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-input-wrapper,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .ant-input-wrapper input,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .input-com-wrapper,
+.propertyView .ant-form-item .ant-col-r.tbFSStyle .input-com-wrapper input {
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control {
+  width: 58px;
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number {
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap input,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap input,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap input,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap input {
+  width: 58px;
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap:after,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-input-wrap:after {
+  top: -1px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-handler-wrap a,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-handler-wrap a,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-handler-wrap a,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-handler-wrap a {
+  height: 10px
+}
+
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner,
+#PropertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-form-item-control .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner,
+.propertyView .ant-form-item .ant-col-r.tbSSStyle .ant-input-number-handler-wrap a.ant-input-number-handler-up .ant-input-number-handler-up-inner {
+  top: -1px
+}
+
+#PropertyView .ant-form-item .ant-col-r .origin_dropdown,
+.propertyView .ant-form-item .ant-col-r .origin_dropdown {
+  width: 60px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  background-color: #353535;
+  border-radius: 2px;
+  color: #a0a0a0;
+  border: 1px solid #444;
+  padding: 0 7px
+}
+
+#PropertyView .ant-form-item .ant-col-r .origin_dropdown:focus,
+.propertyView .ant-form-item .ant-col-r .origin_dropdown:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(255, 168, 0, .4)
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item {
+  position: relative;
+  margin-bottom: 5px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon {
+  position: absolute;
+  width: 15px;
+  height: 22px;
+  right: -15px;
+  top: 0;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -840px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon:hover,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon:hover {
+  background: url(../images/icon1.svg) no-repeat -840px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon:active,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .delete-icon:active {
+  background: url(../images/icon1.svg) no-repeat -840px -440px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .flag_dropdown,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .flag_dropdown {
+  display: inline-block;
+  width: 42px;
+  margin-right: 5px;
+  vertical-align: top;
+  position: relative
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .flag_dropdown .icon,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .flag_dropdown .icon {
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  background: url(../images/icon1.svg) no-repeat -280px -640px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .name_dropdown,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .name_dropdown {
+  display: inline-block;
+  width: 133px;
+  position: relative
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .name_dropdown .icon,
+.propertyView .ant-form-item .ant-col-r .condition-list .dropdown-item .name_dropdown .icon {
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  background: url(../images/icon1.svg) no-repeat -280px -640px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .add-item,
+.propertyView .ant-form-item .ant-col-r .condition-list .add-item {
+  width: 100%;
+  text-align: center
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .add-item .icon,
+.propertyView .ant-form-item .ant-col-r .condition-list .add-item .icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: auto;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -800px -360px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .add-item .icon:hover,
+.propertyView .ant-form-item .ant-col-r .condition-list .add-item .icon:hover {
+  background: url(../images/icon1.svg) no-repeat -800px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .condition-list .add-item .icon:active,
+.propertyView .ant-form-item .ant-col-r .condition-list .add-item .icon:active {
+  background: url(../images/icon1.svg) no-repeat -800px -440px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item {
+  position: relative;
+  margin-bottom: 5px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon {
+  position: absolute;
+  width: 15px;
+  height: 22px;
+  right: -15px;
+  top: 0;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -840px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon:hover,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon:hover {
+  background: url(../images/icon1.svg) no-repeat -840px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon:active,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .delete-icon:active {
+  background: url(../images/icon1.svg) no-repeat -840px -440px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .ant-input-wrapper,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .ant-input-wrapper {
+  width: 100%;
+  display: block
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .ant-input-wrapper .origin_dropdown,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .dropdown-item .ant-input-wrapper .origin_dropdown {
+  width: 100%
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .add-item,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .add-item {
+  width: 100%;
+  text-align: center
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: auto;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -800px -360px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon:hover,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon:hover {
+  background: url(../images/icon1.svg) no-repeat -800px -400px
+}
+
+#PropertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon:active,
+.propertyView .ant-form-item .ant-col-r .dropdown-list .add-item .icon:active {
+  background: url(../images/icon1.svg) no-repeat -800px -440px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src,
+.propertyView .ant-form-item .ant-col-r .upstream-src {
+  width: 100%;
+  padding-left: 6px;
+  font-size: 12px;
+  color: #a0a0a0;
+  position: relative;
+  left: 6px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .ant-input:focus,
+#PropertyView .ant-form-item .ant-col-r .upstream-src .ant-select-selection:focus,
+.propertyView .ant-form-item .ant-col-r .upstream-src .ant-input:focus,
+.propertyView .ant-form-item .ant-col-r .upstream-src .ant-select-selection:focus {
+  box-shadow: 0 0 2px 1px #ffa800
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-type,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-type {
+  margin-bottom: 5px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .border,
+.propertyView .ant-form-item .ant-col-r .upstream-src .border {
+  width: 100%;
+  border-bottom: 1px solid #161616;
+  height: 13px;
+  margin-bottom: 12px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item {
+  margin-bottom: 12px;
+  background: #353535;
+  border-radius: 4px;
+  padding: 12px 0;
+  position: relative
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item {
+  display: block;
+  width: 100%;
+  margin-top: 12px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item:first-child,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item:first-child {
+  margin-top: 0
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-item-name,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-item-name {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-input,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-input {
+  width: 180px;
+  line-height: 22px;
+  height: 22px;
+  margin: 3px;
+  background: #232323;
+  color: #858585;
+  border: 1px solid #444;
+  outline: none
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-input:disabled,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .src-item .src-input:disabled {
+  background: #2e2e2e
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: -8px;
+  right: -7px;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -1120px -520px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon:hover,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon:hover {
+  background: url(../images/icon1.svg) no-repeat -1120px -560px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon:active,
+.propertyView .ant-form-item .ant-col-r .upstream-src .upstream-src-item .delete-icon:active {
+  background: url(../images/icon1.svg) no-repeat -1120px -600px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .add-item,
+.propertyView .ant-form-item .ant-col-r .upstream-src .add-item {
+  height: 8px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .add-item .icon,
+.propertyView .ant-form-item .ant-col-r .upstream-src .add-item .icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  top: -6px;
+  background: url(../images/icon1.svg) no-repeat -440px -520px
+}
+
+#PropertyView .ant-form-item .ant-col-r .upstream-src .add-item .icon:hover,
+.propertyView .ant-form-item .ant-col-r .upstream-src .add-item .icon:hover {
+  background: url(../images/icon1.svg) no-repeat -440px -560px
+}
+
+#PropertyView .ant-form-item .ant-input-percent .ant-input-number-input-wrap:after,
+#PropertyView .ant-form-item .ant-input-rate .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-percent .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-rate .ant-input-number-input-wrap:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../images/1.svg) no-repeat -40px 0;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  margin-top: 1px
+}
+
+#PropertyView .ant-form-item .ant-input-percent .ant-input-number:hover .ant-input-number-input-wrap:after,
+#PropertyView .ant-form-item .ant-input-rate .ant-input-number:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-percent .ant-input-number:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-rate .ant-input-number:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-px .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-px .ant-input-number-input-wrap:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../images/1.svg) no-repeat 0 0;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  margin-top: 1px
+}
+
+#PropertyView .ant-form-item .ant-input-px:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-px:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-degree .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-degree .ant-input-number-input-wrap:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../images/1.svg) no-repeat -20px 0;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 16px;
+  margin-top: 1px
+}
+
+#PropertyView .ant-form-item .ant-input-degree:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-degree:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-time-second .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-time-second .ant-input-number-input-wrap:after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../images/1.svg) no-repeat -160px 0;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 16px;
+  margin-top: 1px
+}
+
+#PropertyView .ant-form-item .ant-input-time-second:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-time-second:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-times .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-times .ant-input-number-input-wrap:after {
+  content: '\500D';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-times:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-times:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-speed .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-speed .ant-input-number-input-wrap:after {
+  content: 'px/fps';
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-speed:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-speed:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-dollar .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-dollar .ant-input-number-input-wrap:after {
+  content: '\5143';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-dollar:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-dollar:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-hour .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-hour .ant-input-number-input-wrap:after {
+  content: '\5C0F\65F6';
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-hour:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-hour:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-frequency .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-frequency .ant-input-number-input-wrap:after {
+  content: '\6B21';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-frequency:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-frequency:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input-rpNumber .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-rpNumber .ant-input-number-input-wrap:after {
+  content: '\4E2A';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: 2px;
+  z-index: 100;
+  font-size: 12px;
+  background: none
+}
+
+#PropertyView .ant-form-item .ant-input-rpNumber:hover .ant-input-number-input-wrap:after,
+.propertyView .ant-form-item .ant-input-rpNumber:hover .ant-input-number-input-wrap:after {
+  display: none
+}
+
+#PropertyView .ant-form-item .ant-input,
+#PropertyView .ant-form-item .input-com-input,
+.propertyView .ant-form-item .ant-input,
+.propertyView .ant-form-item .input-com-input {
+  background-color: #353535;
+  border-color: #444;
+  border-radius: 2px
+}
+
+#PropertyView .ant-form-item .ant-input:hover,
+#PropertyView .ant-form-item .input-com-input:hover,
+.propertyView .ant-form-item .ant-input:hover,
+.propertyView .ant-form-item .input-com-input:hover {
+  border-color: #1a1a1a
+}
+
+#PropertyView .ant-input-number-focused,
+#PropertyView .ant-input-number-input:focus,
+#PropertyView .ant-input-sm:focus,
+#PropertyView .ant-select-focused,
+#PropertyView .ant-select-open .ant-select-selection,
+#PropertyView .input-com-input:focus,
+.propertyView .ant-input-number-focused,
+.propertyView .ant-input-number-input:focus,
+.propertyView .ant-input-sm:focus,
+.propertyView .ant-select-focused,
+.propertyView .ant-select-open .ant-select-selection,
+.propertyView .input-com-input:focus {
+  border-color: #444;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(255, 168, 0, .4)
+}
+
+#PropertyView .ant-select-focused .ant-select-selection,
+.propertyView .ant-select-focused .ant-select-selection {
+  box-shadow: 0 0 0 2px rgba(255, 168, 0, 0)
+}
+
+#PropertyView .ant-input-number,
+.propertyView .ant-input-number {
+  border: 1px solid #444;
+  background: none;
+  border-radius: 2px;
+  width: 60px
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap,
+.propertyView .ant-input-number .ant-input-number-handler-wrap {
+  background: #151515;
+  width: 16px;
+  border-left: 1px solid #313131
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap:hover,
+.propertyView .ant-input-number .ant-input-number-handler-wrap:hover {
+  color: #ffa800
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler {
+  color: #adadad
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover {
+  background: #151515
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover .ant-input-number-handler-down-inner,
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover .ant-input-number-handler-up-inner,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover .ant-input-number-handler-down-inner,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler:hover .ant-input-number-handler-up-inner {
+  color: #ffa800
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down {
+  border-top: 1px solid #313131
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up-inner,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up-inner {
+  right: 2px
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up-inner:before,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-up-inner:before {
+  content: '\E610'
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down-inner,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down-inner {
+  right: 2px
+}
+
+#PropertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down-inner:before,
+.propertyView .ant-input-number .ant-input-number-handler-wrap .ant-input-number-handler-down-inner:before {
+  content: '\E611'
+}
+
+#PropertyView .ant-input-number .ant-input-number-input,
+.propertyView .ant-input-number .ant-input-number-input {
+  background-color: #353535;
+  border-radius: 2px;
+  color: #a0a0a0
+}
+
+#PropertyView .ant-input-number .ant-input-number-input:focus,
+.propertyView .ant-input-number .ant-input-number-input:focus {
+  color: #fefefe
+}
+
+#PropertyView .ant-progress-bar,
+#PropertyView .ant-progress-txt,
+.propertyView .ant-progress-bar,
+.propertyView .ant-progress-txt {
+  display: none
+}
+
+#PropertyView #ant-progress,
+#PropertyView .ant-progress,
+.propertyView #ant-progress,
+.propertyView .ant-progress {
+  width: 100%;
+  height: 22px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #282828;
+  border: 1px solid #434343;
+  display: none
+}
+
+#PropertyView #ant-progress .ant-progress-bar,
+#PropertyView .ant-progress .ant-progress-bar,
+.propertyView #ant-progress .ant-progress-bar,
+.propertyView .ant-progress .ant-progress-bar {
+  height: 100%;
+  width: 50%;
+  color: #fff;
+  background: #ffa800;
+  text-align: right;
+  line-height: 2em;
+  font-size: 12px;
+  display: block
+}
+
+#PropertyView #ant-progress .ant-progress-txt,
+#PropertyView .ant-progress .ant-progress-txt,
+.propertyView #ant-progress .ant-progress-txt,
+.propertyView .ant-progress .ant-progress-txt {
+  position: absolute;
+  width: 100%;
+  top: 3px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-size: 12px
+}
+
+#PropertyView .ant-select-selection--single,
+.propertyView .ant-select-selection--single {
+  border-radius: 2px;
+  color: #a0a0a0;
+  border: 1px solid #444;
+  background-color: #353535
+}
+
+#PropertyView .ant-select-selection--single .ant-select-selection-selected-value,
+.propertyView .ant-select-selection--single .ant-select-selection-selected-value {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 149px
+}
+
+#PropertyView .tdColorSwitch .visible-switch,
+.propertyView .tdColorSwitch .visible-switch {
+  float: left;
+  margin-left: 8px !important
+}
+
+#PropertyView .ant-form-item-control,
+.propertyView .ant-form-item-control {
+  line-height: 14px
+}
+
+#PropertyView .ant-form-item-control .color-input,
+.propertyView .ant-form-item-control .color-input {
+  width: 115px !important;
+  float: left
+}
+
+#PropertyView .ant-form-item-control .pr,
+.propertyView .ant-form-item-control .pr {
+  position: relative
+}
+
+#PropertyView .ant-form-item-control .pr:hover .btn_del,
+.propertyView .ant-form-item-control .pr:hover .btn_del {
+  display: block;
+  background-position: -600px -400px
+}
+
+#PropertyView .ant-form-item-control .pr .btn_del,
+.propertyView .ant-form-item-control .pr .btn_del {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  background: url(../images/icon1.svg);
+  background-position: -600px -360px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none
+}
+
+#PropertyView .ant-form-item-control .pr .btn_del:hover,
+.propertyView .ant-form-item-control .pr .btn_del:hover {
+  background-position: -600px -440px
+}
+
+#PropertyView .ant-form-item-control .ant-btn-sm,
+.propertyView .ant-form-item-control .ant-btn-sm {
+  height: 22px;
+  width: 180px;
+  padding: 0;
+  border-radius: 2px;
+  background-color: #353535;
+  border: 1px solid #444
+}
+
+#PropertyView .ant-form-item-control .ant-btn-sm:hover,
+.propertyView .ant-form-item-control .ant-btn-sm:hover {
+  color: #a0a0a0
+}
+
+#PropertyView .ant-form-item-control .ant-btn-sm.ant-btn-clicked:after,
+.propertyView .ant-form-item-control .ant-btn-sm.ant-btn-clicked:after {
+  content: ''
+}
+
+#PropertyView .ant-form-item-control .ant-btn-sm span,
+.propertyView .ant-form-item-control .ant-btn-sm span {
+  width: 178px;
+  margin: 0 auto;
+  height: 100%;
+  line-height: 20px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  text-indent: 5px
+}
+
+#PropertyView .ant-form-item-control .visible-switch,
+.propertyView .ant-form-item-control .visible-switch {
+  float: left;
+  margin-left: 7px
+}
+
+#PropertyView .ant-form-item-control .slider-input,
+.propertyView .ant-form-item-control .slider-input {
+  border: 1px solid #444;
+  background: none;
+  border-radius: 2px;
+  width: 60px !important;
+  height: 22px;
+  float: left
+}
+
+#PropertyView .ant-form-item-control .slider-input .ant-input-number-handler,
+.propertyView .ant-form-item-control .slider-input .ant-input-number-handler {
+  height: 11px
+}
+
+#PropertyView .ant-form-item-control .slider-input .ant-input-number-input-wrap,
+.propertyView .ant-form-item-control .slider-input .ant-input-number-input-wrap {
+  height: 22px;
+  line-height: 22px
+}
+
+#PropertyView .ant-form-item-control .slider-input .ant-input-number-input,
+.propertyView .ant-form-item-control .slider-input .ant-input-number-input {
+  height: 22px
+}
+
+#PropertyView .ant-form-item-control .slider-input:hover:after,
+.propertyView .ant-form-item-control .slider-input:hover:after {
+  display: none
+}
+
+#PropertyView .ant-form-item-control .slider-per,
+.propertyView .ant-form-item-control .slider-per {
+  width: 50%;
+  margin: 4px;
+  float: left
+}
+
+#PropertyView .ant-form-item-control .ant-slider,
+.propertyView .ant-form-item-control .ant-slider {
+  background-color: #151515;
+  border-color: #232323;
+  margin-top: 8px;
+}
+
+#PropertyView .ant-form-item-control .ant-slider:hover .ant-slider-handle,
+.propertyView .ant-form-item-control .ant-slider:hover .ant-slider-handle {
+  border-color: #ffa800
+}
+
+#PropertyView .ant-form-item-control .ant-slider .ant-slider-track,
+.propertyView .ant-form-item-control .ant-slider .ant-slider-track {
+  background-color: #ffa800
+}
+
+#PropertyView .ant-form-item-control .ant-slider .ant-slider-handle,
+.propertyView .ant-form-item-control .ant-slider .ant-slider-handle {
+  background-color: #858585;
+  border-color: #858585
+}
+
+#PropertyView .bind-key-com .bind-key-select-icon,
+.propertyView .bind-key-com .bind-key-select-icon {
+  cursor: pointer;
+  width: 23px;
+  height: 22px;
+  outline: 0;
+  margin-right: 2px;
+  z-index: 1;
+  border: 1px solid #353535;
+  border-radius: 2px;
+  background: url(../images/icon1.svg) no-repeat -641px -361px
+}
+
+#PropertyView .bind-key-com .bind-key-select-icon:hover,
+.propertyView .bind-key-com .bind-key-select-icon:hover {
+  background: url(../images/icon1.svg) no-repeat -641px -401px
+}
+
+#PropertyView .bind-key-com .bind-key-select-icon:active,
+.propertyView .bind-key-com .bind-key-select-icon:active {
+  background: url(../images/icon1.svg) no-repeat -641px -441px;
+  border: 1px solid #0f1620
+}
+
+#PropertyView .bind-key-com .bind-key-select-icon:disabled,
+.propertyView .bind-key-com .bind-key-select-icon:disabled {
+  filter: alpha(opacity=60);
+  opacity: .6;
+  cursor: not-allowed !important
+}
+
+#PropertyView .bind-key-com .bind-key-select-icon.active,
+.propertyView .bind-key-com .bind-key-select-icon.active {
+  border: 1px solid #7b5815;
+  background: url(../images/icon1.svg) no-repeat -641px -441px
+}
+
+#PropertyView .bind-key-com .ant-select,
+.propertyView .bind-key-com .ant-select {
+  width: 140px
+}
+
+#PropertyView .bind-key-com .ant-select .ant-select-selection-selected-value,
+.propertyView .bind-key-com .ant-select .ant-select-selection-selected-value {
+  max-width: 120px
+}
+
+#PropertyView .bind-key-com .bind-key-delete,
+.propertyView .bind-key-com .bind-key-delete {
+  width: 15px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 2px
+}
+
+#PropertyView .bind-key-com .bind-key-delete button,
+.propertyView .bind-key-com .bind-key-delete button {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -605px -360px
+}
+
+#PropertyView .bind-key-com .bind-key-delete button:hover,
+.propertyView .bind-key-com .bind-key-delete button:hover {
+  background-position: -605px -400px
+}
+
+#PropertyView .bind-key-com .bind-key-delete button:active,
+.propertyView .bind-key-com .bind-key-delete button:active {
+  background-position: -605px -440px
+}
+
+#PropertyView .db-view-com,
+.propertyView .db-view-com {
+  border: 1px solid #a16d08;
+  padding: 1px;
+  border-radius: 2px
+}
+
+#PropertyView .db-view-com .db-view-container,
+.propertyView .db-view-com .db-view-container {
+  width: 100%;
+  background-color: #232323
+}
+
+#PropertyView .db-view-com .db-select-icon,
+.propertyView .db-view-com .db-select-icon {
+  cursor: pointer;
+  width: 21px;
+  height: 22px;
+  min-width: 21px;
+  outline: 0;
+  margin-right: 1px;
+  z-index: 1;
+  border: 1px solid #353535;
+  border-radius: 2px;
+  background: url(../images/icon1.svg) no-repeat -642px -361px
+}
+
+#PropertyView .db-view-com .db-select-icon:hover,
+.propertyView .db-view-com .db-select-icon:hover {
+  background: url(../images/icon1.svg) no-repeat -642px -401px
+}
+
+#PropertyView .db-view-com .db-select-icon:active,
+.propertyView .db-view-com .db-select-icon:active {
+  background: url(../images/icon1.svg) no-repeat -642px -441px;
+  border: 1px solid #0f1620
+}
+
+#PropertyView .db-view-com .db-select-icon:disabled,
+.propertyView .db-view-com .db-select-icon:disabled {
+  filter: alpha(opacity=60);
+  opacity: .6;
+  cursor: not-allowed !important
+}
+
+#PropertyView .db-view-com .db-select-icon.active,
+.propertyView .db-view-com .db-select-icon.active {
+  border: 1px solid #7b5815;
+  background: url(../images/icon1.svg) no-repeat -642px -441px
+}
+
+#PropertyView .db-view-com .seperate-icon,
+.propertyView .db-view-com .seperate-icon {
+  width: 11px;
+  height: 22px;
+  background: url(../images/icon1.svg) no-repeat -520px -360px
+}
+
+#PropertyView .db-view-com .db-mapping-group,
+.propertyView .db-view-com .db-mapping-group {
+  width: 100%
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-db,
+.propertyView .db-view-com .db-mapping-group .db-mapping-db {
+  width: 75px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-field,
+.propertyView .db-view-com .db-mapping-group .db-mapping-field {
+  width: 68px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-db-completed,
+.propertyView .db-view-com .db-mapping-group .db-mapping-db-completed {
+  width: 66px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-field-completed,
+.propertyView .db-view-com .db-mapping-group .db-mapping-field-completed {
+  width: 60px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-delete,
+.propertyView .db-view-com .db-mapping-group .db-mapping-delete {
+  width: 15px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 2px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-delete button,
+.propertyView .db-view-com .db-mapping-group .db-mapping-delete button {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -605px -360px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-delete button:hover,
+.propertyView .db-view-com .db-mapping-group .db-mapping-delete button:hover {
+  background-position: -605px -400px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-delete button:active,
+.propertyView .db-view-com .db-mapping-group .db-mapping-delete button:active {
+  background-position: -605px -440px
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-text,
+.propertyView .db-view-com .db-mapping-group .db-mapping-text {
+  line-height: 20px;
+  color: #a0a0a0;
+  height: 22px;
+  border-radius: 2px;
+  padding: 0 2px;
+  background-color: #353535;
+  border: 1px solid #444
+}
+
+#PropertyView .db-view-com .db-mapping-group .db-mapping-text.db-mapping-text-empty,
+.propertyView .db-view-com .db-mapping-group .db-mapping-text.db-mapping-text-empty {
+  width: 100%;
+  text-align: center;
+  cursor: not-allowed
+}
+
+form .ant-cascader-picker,
+form .ant-select {
+  width: 100%
+}
+
+.font-family.ant-select-dropdown {
+  width: 185px !important
+}
+
+.ant-form-item-label label:after {
+  margin: 0 5px 0 2px
+}
+
+#PropertyView {
+  right: -20px;
+  padding-left: 10px;
+  box-sizing: content-box;
+}
+
+#PropertyView #PropertyViewBody {
+  overflow: visible
+}
+
+#PropertyView #PropertyViewBody::-webkit-scrollbar {
+  display: none !important
+}
+
+#PropertyView .ext-block {
+  padding-left: 5px;
+  flex-direction: column
+}
+
+#PropertyView .ext-block .ant-col-l {
+  align-self: flex-start
+}
+
+#PropertyView .ext-block .ant-col-l label {
+  width: 78px !important
+}
+
+#PropertyView .ext-block .ant-col-r {
+  width: 100%
+}
+
+#PropertyView .ext-block .ant-col-r .ant-select {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 85px
+}
+
+#PropertyView .ext-block .ant-col-r .script-item {
+  position: relative
+}
+
+#PropertyView .ext-block .ant-col-r .script-item .ant-input {
+  padding-right: 15px
+}
+
+#PropertyView .ext-block .ant-col-r .delete-btn {
+  position: absolute;
+  width: 15px;
+  height: 22px;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -840px -360px
+}
+
+#PropertyView .ext-block .ant-col-r .delete-btn:hover {
+  background: url(../images/icon1.svg) no-repeat -840px -400px
+}
+
+#PropertyView .ext-block .ant-col-r .delete-btn:active {
+  background: url(../images/icon1.svg) no-repeat -840px -440px
+}
+
+#PropertyView .ext-block .ant-col-r .ant-input {
+  margin-top: 10px;
+  text-overflow: ellipsis
+}
+
+#PropertyView .ext-block .add-btn {
+  width: 12px;
+  height: 12px;
+  margin: auto;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background: url(../images/icon1.svg) no-repeat -800px -360px
+}
+
+#PropertyView .ext-block .add-btn:hover {
+  background: url(../images/icon1.svg) no-repeat -800px -400px
+}
+
+#PropertyView .ext-block .add-btn:active {
+  background: url(../images/icon1.svg) no-repeat -800px -440px
+}
+
+#PropertyView .ant-form-item.auto-play-short {
+  width: 107px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-1 {
+  background: url(../images/icon1.svg) no-repeat -120px -360px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-1:hover {
+  background: url(../images/icon1.svg) no-repeat -120px -400px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-1.active {
+  background: url(../images/icon1.svg) no-repeat -120px -440px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-2 {
+  background: url(../images/icon1.svg) no-repeat -160px -360px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-2:hover {
+  background: url(../images/icon1.svg) no-repeat -160px -400px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-2.active {
+  background: url(../images/icon1.svg) no-repeat -160px -440px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-4 {
+  background: url(../images/icon1.svg) no-repeat -200px -360px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-4:hover {
+  background: url(../images/icon1.svg) no-repeat -200px -400px
+}
+
+#PropertyView .ant-form-item.text-style-block .choose-4.active {
+  background: url(../images/icon1.svg) no-repeat -200px -440px
+}
+
+#PropertyView .ant-form-item.text-style-block-long {
+  width: 138px
+}
+
+#PropertyView .ant-form-item.text-style-block-short {
+  margin-left: 10px;
+  width: 69px
+}
+
+#PropertyView .path-icon,
+.ant-select-dropdown .path-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  float: left
+}
+
+#PropertyView .path-icon svg,
+.ant-select-dropdown .path-icon svg {
+  transform: scale(.16);
+  transform-origin: 0 0
+}
+
+#PropertyView .path-icon svg {
+  transform-origin: 0 2px
+}
+
+#PropertyView .basic-property {
+  padding-top: 5px
+}
+
+#PropertyView .basic-property .ant-form-horizontal {
+  border-bottom: none
+}
+
+#PropertyView .multi-property {
+  width: 254px;
+  border: 1px solid #161616;
+  border-radius: 2px;
+  margin: 18px auto 0;
+  background-color: #282828;
+  position: relative;
+  padding-top: 5px
+}
+
+#PropertyView .multi-property .title {
+  position: absolute;
+  top: -9px;
+  left: 10px;
+  color: #fff
+}
+
+#PropertyView .multi-property .ant-form-horizontal {
+  padding-right: 7px
+}
+
+#PropertyView .inner-property {
+  margin: 18px auto 8px
+}
+
+#PropertyView .ant-form-item.short-without-twin .ant-form-item-control {
+  width: 60px
+}
+
+#PropertyView .disabled-tips {
+  position: absolute;
+  z-index: 200;
+  background-color: #fdfdf0;
+  left: 32px;
+  top: 16px;
+  width: 80px;
+  padding: 4px;
+  transform: scale(.9)
+}
+
+.tutorial-intro-layer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, .6)
+}
+
+.tutorial-intro-layer.layer-notice {
+  background: transparent
+}
+
+.tutorial-intro-layer.layer-animation {
+  -webkit-animation: layer_bg 1s linear;
+  -moz-animation: layer_bg 1s linear;
+  -ms-animation: layer_bg 1s linear;
+  -o-animation: layer_bg 1s linear
+}
+
+@keyframes layer_bg {
+  0% {
+    background: rgba(0, 0, 0, .6)
+  }
+  to {
+    background: transparent
+  }
+}
+
+.tutorial-intro-layer .tutorial-intro {
+  width: 740px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part {
+  position: relative;
+  background-color: #ffa800
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .intro-title {
+  padding-top: 40px;
+  font-size: 24px;
+  letter-spacing: 8px;
+  color: #fff;
+  text-align: center
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .intro-time {
+  margin-top: 18px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .intro-img-div {
+  margin-top: 42px;
+  margin-bottom: -1px
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .intro-img-div .intro-img {
+  margin: 0 auto;
+  width: 460px;
+  min-width: 460px;
+  height: 200px;
+  min-height: 200px
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .intro-img-div .intro-img img {
+  width: 100%
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  background: url(//file.ih5.cn/v3/pixel/2324c502/ac56b3b7020830cb0b3c24aa456ed9ab.svg) no-repeat 0 -240px
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .close-btn:hover {
+  background: url(//file.ih5.cn/v3/pixel/2324c502/ac56b3b7020830cb0b3c24aa456ed9ab.svg) no-repeat 0 -280px
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-part .close-btn:active {
+  background: url(//file.ih5.cn/v3/pixel/2324c502/ac56b3b7020830cb0b3c24aa456ed9ab.svg) no-repeat 0 -320px
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-action {
+  height: 120px;
+  background-color: #fff
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-action .live-stream-btn {
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #fff;
+  background: -webkit-linear-gradient(25deg, #ff8500, #ffa800);
+  background: linear-gradient(25deg, #ff8500, #ffa800)
+}
+
+.tutorial-intro-layer .tutorial-intro .intro-action .live-stream-btn .go-icon {
+  margin-left: 6px;
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  min-height: 16px;
+  background: url(//file.ih5.cn/v3/pixel/2324c502/ac56b3b7020830cb0b3c24aa456ed9ab.svg) no-repeat -40px -240px
+}
+
+.tutorial-intro-layer .tutorial-intro.tutorial-intro-animation {
+  -webkit-animation: tutorial_intro 1s ease-in-out;
+  -moz-animation: tutorial_intro 1s ease-in-out;
+  -ms-animation: tutorial_intro 1s ease-in-out;
+  -o-animation: tutorial_intro 1s ease-in-out
+}
+
+@keyframes tutorial_intro {
+  0% {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1)
+  }
+  50% {
+    opacity: .8
+  }
+  to {
+    top: 22px;
+    left: calc(100% - 27px);
+    opacity: .2;
+    transform: translate(-50%, -50%) scale(0)
+  }
+}
+
+.tutorial-intro-layer .sparking-rect {
+  width: 54px;
+  height: 24px;
+  right: 5px;
+  top: 5.5px;
+  position: absolute;
+  border: 2px solid #ffa800;
+  border-radius: 2px;
+  display: none
+}
+
+.tutorial-intro-layer .sparking-rect.sparking-rect-animation {
+  display: block;
+  -webkit-animation: sparking_rect .5s 2 ease-in-out;
+  -moz-animation: sparking_rect .5s 2 ease-in-out;
+  -ms-animation: sparking_rect .5s 2 ease-in-out;
+  -o-animation: sparking_rect .5s 2 ease-in-out
+}
+
+@keyframes sparking_rect {
+  0% {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.ant-input-number {
+  position: relative;
+  padding: 4px 7px;
+  width: 100%;
+  cursor: text;
+  line-height: 1.5;
+  color: #666;
+  background-color: #fff;
+  background-image: none;
+  -webkit-transition: border .2s cubic-bezier(.645, .045, .355, 1), background .2s cubic-bezier(.645, .045, .355, 1), box-shadow .2s cubic-bezier(.645, .045, .355, 1);
+  transition: border .2s cubic-bezier(.645, .045, .355, 1), background .2s cubic-bezier(.645, .045, .355, 1), box-shadow .2s cubic-bezier(.645, .045, .355, 1);
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+  font-size: 12px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  overflow: inherit;
+  width: 80px
+}
+
+.ant-input-number::-moz-placeholder {
+  color: #ccc;
+  opacity: 1
+}
+
+.ant-input-number:-ms-input-placeholder {
+  color: #ccc
+}
+
+.ant-input-number::-webkit-input-placeholder {
+  color: #ccc
+}
+
+.ant-input-number:focus {
+  border-color: #57c5f7;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(45, 183, 245, .2)
+}
+
+.ant-input-number[disabled],
+fieldset[disabled] .ant-input-number {
+  background-color: #f7f7f7;
+  opacity: 1;
+  cursor: not-allowed;
+  color: #ccc
+}
+
+.ant-input-number[disabled]:hover,
+fieldset[disabled] .ant-input-number:hover {
+  border-color: #e1e1e1
+}
+
+textarea.ant-input-number {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom
+}
+
+.ant-input-number-lg {
+  padding: 6px 7px;
+  height: 32px
+}
+
+.ant-input-number-sm {
+  padding: 1px 7px;
+  height: 22px;
+  border-radius: 4px
+}
+
+.ant-input-number-handler {
+  text-align: center;
+  line-height: 0;
+  height: 14px;
+  overflow: hidden;
+  color: #999;
+  position: relative;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  display: block;
+  width: 100%;
+  font-weight: 700
+}
+
+.ant-input-number-handler:active {
+  background: #f4f4f4
+}
+
+.ant-input-number-handler:hover .ant-input-number-handler-down-inner,
+.ant-input-number-handler:hover .ant-input-number-handler-up-inner {
+  color: #57c5f7
+}
+
+.ant-input-number-handler-down-inner,
+.ant-input-number-handler-up-inner {
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 7px\9;
+  -webkit-transform: scale(.58333333) rotate(0deg);
+  transform: scale(.58333333) rotate(0deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
+  zoom: 1;
+  right: 4px;
+  color: #999
+}
+
+.ant-input-number-handler-down-inner:before,
+.ant-input-number-handler-up-inner:before {
+  display: block;
+  font-family: anticon !important
+}
+
+:root .ant-input-number-handler-down-inner,
+:root .ant-input-number-handler-up-inner {
+  -webkit-filter: none;
+  filter: none;
+  font-size: 12px
+}
+
+.ant-input-number:hover {
+  border-color: #57c5f7
+}
+
+.ant-input-number-focused {
+  border-color: #57c5f7;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(45, 183, 245, .2)
+}
+
+.ant-input-number-disabled {
+  background-color: #f7f7f7;
+  opacity: 1;
+  cursor: not-allowed;
+  color: #ccc
+}
+
+.ant-input-number-disabled:hover {
+  border-color: #e1e1e1
+}
+
+.ant-input-number-input-wrap {
+  // overflow: hidden;
+  height: 28px
+}
+
+.ant-input-number-input {
+  width: 100%;
+  text-align: left;
+  outline: 0;
+  -moz-appearance: textfield;
+  line-height: 28px;
+  height: 28px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  color: #666;
+  border: 0;
+  border-radius: 6px;
+  padding: 0 7px
+}
+
+.ant-input-number-input[disabled] {
+  background-color: #f7f7f7;
+  opacity: 1;
+  cursor: not-allowed;
+  color: #ccc
+}
+
+.ant-input-number-input[disabled]:hover {
+  border-color: #e1e1e1
+}
+
+.ant-input-number-lg {
+  padding: 0
+}
+
+.ant-input-number-lg .ant-input-number-handler-wrap,
+.ant-input-number-lg .ant-input-number-input-wrap {
+  height: 32px
+}
+
+.ant-input-number-lg .ant-input-number-handler {
+  height: 16px
+}
+
+.ant-input-number-lg input {
+  height: 32px;
+  line-height: 32px
+}
+
+.ant-input-number-lg .ant-input-number-handler-up-inner {
+  top: 2px
+}
+
+.ant-input-number-lg .ant-input-number-handler-down-inner {
+  bottom: 2px
+}
+
+.ant-input-number-lg .ant-input-number-handler-up:hover {
+  height: 18px
+}
+
+.ant-input-number-sm {
+  padding: 0
+}
+
+.ant-input-number-sm .ant-input-number-handler-wrap,
+.ant-input-number-sm .ant-input-number-input-wrap {
+  height: 20px
+}
+
+.ant-input-number-sm .ant-input-number-handler {
+  height: 9px
+}
+
+.ant-input-number-sm input {
+  height: 22px;
+  line-height: 22px;
+  margin-top: -1px;
+  vertical-align: top
+}
+
+.ant-input-number-sm .ant-input-number-handler-up-inner {
+  top: -1px
+}
+
+.ant-input-number-sm .ant-input-number-handler-down-inner {
+  bottom: -1px
+}
+
+.ant-input-number-sm .ant-input-number-handler-up:hover {
+  height: 13px
+}
+
+.ant-input-number-sm .ant-input-number-handler-down:hover .ant-input-number-handler-down-inner {
+  bottom: 4px
+}
+
+.ant-input-number-handler-wrap {
+  border-left: 1px solid #d9d9d9;
+  width: 22px;
+  height: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: opacity .24s linear .1s;
+  transition: opacity .24s linear .1s
+}
+
+.ant-input-number:hover .ant-input-number-handler-wrap {
+  opacity: 1
+}
+
+.ant-input-number-handler-up {
+  cursor: pointer
+}
+
+.ant-input-number-handler-up-inner {
+  top: 1px
+}
+
+.ant-input-number-handler-up-inner:before {
+  text-align: center;
+  content: "\E602"
+}
+
+.ant-input-number-handler-up:hover {
+  height: 16px
+}
+
+.ant-input-number-handler-up:hover .ant-input-number-handler-up-inner {
+  margin-top: 2px
+}
+
+.ant-input-number-handler-down {
+  border-top: 1px solid #d9d9d9;
+  top: -1px;
+  cursor: pointer
+}
+
+.ant-input-number-handler-down-inner:before {
+  text-align: center;
+  content: "\E603"
+}
+
+.ant-input-number-handler-down:hover {
+  height: 16px;
+  margin-top: -2px
+}
+
+.ant-input-number-disabled .ant-input-number-handler-down-inner,
+.ant-input-number-disabled .ant-input-number-handler-up-inner,
+.ant-input-number-handler-down-disabled .ant-input-number-handler-down-inner,
+.ant-input-number-handler-down-disabled .ant-input-number-handler-up-inner,
+.ant-input-number-handler-up-disabled .ant-input-number-handler-down-inner,
+.ant-input-number-handler-up-disabled .ant-input-number-handler-up-inner {
+  opacity: .72;
+  color: #ccc !important;
+  cursor: not-allowed
+}
+
+.ant-input-number-disabled .ant-input-number-input {
+  opacity: .72;
+  cursor: not-allowed;
+  background-color: #f3f3f3
+}
+
+.ant-input-number-disabled .ant-input-number-handler-wrap {
+  display: none
+}
+
+.ant-input-number-disabled .ant-input-number-handler {
+  opacity: .72;
+  color: #ccc !important;
+  cursor: not-allowed
+}
+
+.switchMore {
+  background: #353535;
+  width: 120px;
+  height: 18px;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: all .3s cubic-bezier(.78, .14, .15, .86);
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  cursor: pointer;
+  &.switchMore-rect {
+    width: 72px;
+    border-radius: 0;
+    background: none;
+    height: 22px;
+    ul.switchMore-ul li {
+      border: none;
+      background: none;
+      float: left;
+      width: 33.33%;
+      height: 100%;
+      text-align: center;
+      line-height: 1.5em;
+      color: #a0a0a0;
+      &.cur {
+        background: #151515;
+        color: #eb9b02;
+        .textAlign.textAlign-left {
+          background: url(../images/icon1.svg) no-repeat -80px -440px;
+        }
+        .textAlign.textAlign-center {
+          background: url(../images/icon1.svg) no-repeat -40px -440px;
+        }
+        .textAlign.textAlign-right {
+          background: url(../images/icon1.svg) no-repeat 0 -440px;
+        }
+        .textDesoration.textDesoration-bold {
+          background: url(../images/icon1.svg) no-repeat -120px -440px;
+        }
+        .textDesoration.textDesoration-italic {
+          background: url(../images/icon1.svg) no-repeat -160px -440px;
+        }
+        .textDesoration.textDesoration-underline {
+          background: url(../images/icon1.svg) no-repeat -200px -440px;
+        }
+      }
+    }
+  }
+}
+
+.switchMore-ul {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  li {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    color: #a0a0a0;
+    .textAlign {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      &.textAlign-right {
+        background: url(../images/icon1.svg) no-repeat 0 -360px;
+        &:hover {
+          background: url(../images/icon1.svg) no-repeat 0 -400px;
+        }
+      }
+      &.textAlign-center {
+        background: url(../images/icon1.svg) no-repeat -40px -360px;
+        &:hover {
+          background: url(../images/icon1.svg) no-repeat -40px -400px;
+        }
+      }
+      &.textAlign-left {
+        background: url(../images/icon1.svg) no-repeat -80px -360px;
+        &:hover{
+          background: url(../images/icon1.svg) no-repeat -80px -400px;
+        }
+      }
+    }
+    .textDesoration {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      &.textDesoration-bold {
+        background: url(../images/icon1.svg) no-repeat -120px -360px;
+        &:hover{
+          background: url(../images/icon1.svg) no-repeat -120px -400px;
+        }
+        
+      }
+      &.textDesoration-italic {
+        background: url(../images/icon1.svg) no-repeat -160px -360px;
+        &:hover{
+          background: url(../images/icon1.svg) no-repeat -160px -400px;
+        }
+        
+      }
+      &.textDesoration-underline {
+        background: url(../images/icon1.svg) no-repeat -200px -360px;
+        &:hover{
+          background: url(../images/icon1.svg) no-repeat -200px -400px;
+        }
+        
+      }
+    }
+  }
+}

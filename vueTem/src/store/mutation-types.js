@@ -1,0 +1,1 @@
+export const SET_CCGAME_LOADED = 'SET_CCGAME_LOADED'

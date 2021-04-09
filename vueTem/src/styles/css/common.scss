@@ -1,0 +1,250 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+//   background: #2e2e2e;
+  background: #F4F4F4;
+  color: #555;
+  font-size: 14px;
+  cursor: default;
+  font-family: "Arial", "Microsoft YaHei", "\9ED1\4F53", "\5B8B\4F53", sans-serif;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  color: #555;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  font: 14px "Arial", "Microsoft YaHei", "\9ED1\4F53", "\5B8B\4F53", sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+html {
+  overflow-y: auto;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: inline-block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+/*公共类*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.al {
+  text-align: left;
+}
+.ac {
+  text-align: center;
+}
+.ar {
+  text-align: right;
+}
+.hide {
+  display: none;
+}
+/*input placeholder */
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(145, 158, 171, 1);
+  line-height: 17px;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(145, 158, 171, 1);
+  line-height: 17px;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(145, 158, 171, 1);
+  line-height: 17px;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(145, 158, 171, 1);
+  line-height: 17px;
+}
+/* .icon-icon_folderchev{
+  background-size: 522px 474px!important;
+} */
+// 公用样式
+#app {
+  height: 100%;
+//   background: #2e2e2e;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/MaterialIcons-Regular.woff2) format('woff2'), url(../fonts/MaterialIcons-Regular.woff) format('woff'), url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+.control {
+  .mu-text-field-input {
+    font-size: 12px !important;
+  }
+}
+
+// #PropertyView {
+//   .el-slider__runway {
+//     margin-bottom: 0 !important;
+//     margin-top: 0 !important;
+//     background-color: #151515 !important;
+//     border-color: #232323 !important;
+//     height: 4px !important;
+//   }
+//   .el-slider__bar {
+//     height: 4px !important;
+//     .el-slider__button-wrapper {
+//       top: -17px !important;
+//     }
+//   }
+// }
+
+.el-color-dropdown {
+  border: 1px solid rgb(21, 21, 21) !important;
+  background: rgb(53, 53, 53) !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+}
+
+.el-icon--right {
+  position: absolute;
+  right: -10px;
+  top: 2px;
+}
+.el-icon--right {
+  margin-left: 5px;
+}
+[class*=" el-icon-"],
+[class^="el-icon-"] {
+  font-family: element-icons !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

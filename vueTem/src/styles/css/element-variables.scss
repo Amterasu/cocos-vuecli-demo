@@ -1,0 +1,175 @@
+// .el-tooltip__popper.is-light {
+//   background: #ffffff;
+//   -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+//           box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+//   border-radius: 3px;
+//   border: 0;
+// }
+
+// .el-tabs__header {
+//   background: #fff;
+//   margin: 0;
+//   line-height: 40px;
+// }
+
+// .el-tabs__nav-wrap {
+//   padding-left: 16px;
+// }
+
+// .el-tabs__nav-wrap::after {
+//   height: 1px;
+//   background-color: rgba(224, 224, 224, 1);
+// }
+
+// .el-tabs__item {
+//   font-size: 14px;
+//   font-weight: 400;
+//   color: rgba(99, 115, 129, 1);
+// }
+
+// .el-tabs--top,
+// .el-tabs__content,
+// .el-tab-pane {
+//   height: 100%;
+// }
+
+// .el-textarea__inner {
+//   height: 400px;
+//   padding: 5px 8px!important;
+// }
+
+// .left-panel /deep/ .el-tabs__content {
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   height: calc(100% - 70px);
+// }
+// .right-panel /deep/ .el-tabs__content {
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   height: calc(100% - 70px);
+// }
+
+// .el-dropdown-menu__item {
+//   font-size: 14px;
+//   font-weight: 400;
+//   line-height: 20px;
+//   padding: 8px 20px 8px 32px;
+// }
+
+// .el-checkbox {
+//   margin: 4px 0;
+// }
+
+// .el-dropdown {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   padding: 0 8px;
+//   font-size: 13px;
+//   cursor: pointer;
+// }
+
+// .el-dropdown-menu {
+//   border: none;
+//   -webkit-user-select: none;
+//      -moz-user-select: none;
+//       -ms-user-select: none;
+//           user-select: none;
+// }
+
+// .el-dropdown-link {
+//   width: 100%;
+// }
+
+// .el-dropdown-link:focus {
+//   outline: none;
+// }
+
+// .el-dropdown-menu__item:hover {
+//   background: rgba(242, 244, 247, 1) !important;
+//   color: #212121 !important;
+// }
+
+// .el-tabs__active-bar {
+//   height: 4px!important;
+//   width: 20px!important;
+// }
+
+// .is-active {
+//   color: #3E93E1!important;
+//   font-weight: bold!important;
+// }
+
+// .ql-container.ql-snow {
+//   border-radius: 3px;
+//   border: 1px solid rgba(171, 186, 203, 1);
+// }
+
+// .ql-editor {
+//   padding: 12px 8px!important;
+//   background: white;
+// }
+
+// .ql-editor.ql-blank::before {
+//   left: 8px!important;
+//   opacity: 0.5;
+//   font-style: normal!important;
+// }
+
+// .el-checkbox__input.is-checked+.el-checkbox__label {
+//   color: #348de0;
+// }
+
+// .el-tabs__item:focus.is-active.is-focus:not(:active) {
+//   -webkit-box-shadow: none !important;
+//           box-shadow: none !important;
+// }
+
+// .el-dialog__header {
+//   border-bottom: 1px solid #f0f1f2ff;
+// }
+
+// .el-dialog__body {
+//   padding: 24px 20px
+// }
+
+// .el-input-number--mini {
+//   width: 90px;
+// }
+
+// .el-input--mini>input {
+//   padding: 0 !important;
+// }
+// .el-dialog {
+//   width: 60%;
+// }
+
+// /*自定义popper-class*/
+// .tip_popper {
+// max-width: 232px;
+// font-size: 12px;
+// color: #212121;
+// line-height: 17px;
+// }
+// .tip_popper /deep/ .popper__arrow{
+// /* border-bottom-color: white !important;
+// border-top-color: white !important; */
+// }
+// /* 新版本UI checkBox相关 start */
+// /* el-radio相关写在这里 */
+// .el-radio__inner{
+//   border-color: rgba(204, 204, 204, 1)!important;
+//   background: rgba(255, 255, 255, 0);
+// }
+// .is-checked > .el-radio__inner{
+//   border-color: rgba(76, 131, 253, 1)!important;
+// }
+// .el-radio__inner::after{
+//   width:8px;
+//   height: 8px;
+//   background: rgba(76, 131, 253, 1);
+//   border:1px solid #fff;
+//   -webkit-box-sizing:content-box;
+//           box-sizing:content-box;
+// }
+// /* 新版本UI checkBox相关 end */
